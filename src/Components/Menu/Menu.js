@@ -27,16 +27,16 @@ const Menu = () => {
                     <Nav.Link href="home" className="">
                       Home
                     </Nav.Link>
-                    <Nav.Link href="link" className="pr-2">
+                    <Nav.Link href="jobs" className="pr-2">
                       Jobs
                     </Nav.Link>
-                    <Nav.Link href="link" className="pr-2">
+                    <Nav.Link href="candidates" className="pr-2">
                       Candidates
                     </Nav.Link>
-                    <Nav.Link href="link" className="pr-2">
+                    <Nav.Link href="about" className="pr-2">
                       About
                     </Nav.Link>
-                    <Nav.Link href="link" className="">
+                    <Nav.Link href="contact" className="">
                       Contact
                     </Nav.Link>
                   </Nav>
