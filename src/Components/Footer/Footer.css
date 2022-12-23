@@ -1,0 +1,19 @@
+body,p,h1,h2,h3,h4,h5,h6,span{
+    color: white;
+}
+.footer-area{
+    padding:135px 0px 0px 0px;
+    background:#0B1640;
+}
+.footer-top-content{
+    padding-bottom: 70px;
+}
+.footer-top-content ul.delivery_info {
+    padding: 20px 0px;
+    
+}
+.footer-top-content .delivery_info li a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
