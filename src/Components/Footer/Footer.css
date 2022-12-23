@@ -17,3 +17,7 @@ body,p,h1,h2,h3,h4,h5,h6,span{
     text-decoration: none;
     padding-bottom: 20px;
 }
+.footer-bottom-content{
+    padding: 40px 0px;
+    border-top:1px solid white;
+}

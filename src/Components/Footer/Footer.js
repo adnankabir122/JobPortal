@@ -6,6 +6,7 @@ import ui_experts from "./ui-experts.png";
 const Footer = () => {
   return (
     <div className="footer-area">
+      {/* Footer Top Start    */}
       <div className="footer-top">
         <div className="container">
           <div className="row">
@@ -93,6 +94,21 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      {/* Footer Top End */}
+
+      {/* Footer Bottom Start  */}
+      <div className="footer-bottom">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12">
+                    <div className="footer-bottom-content text-center">
+                        <p>2021&copy;All rights reserved by Mreedul</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      {/* Footer Bottom End  */}
     </div>
   );
 };
