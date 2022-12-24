@@ -8,7 +8,7 @@ import "./Menu.css";
 const Menu = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" expand="lg" className="py-4">
+      <Navbar variant="dark" expand="lg" className="py-4">
         <div className="container">
           <div className="row w-100 align-items-center justify-content-between">
             <div className="col-md-2">

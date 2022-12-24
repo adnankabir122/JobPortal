@@ -1,0 +1,42 @@
+/* .hero-text h1,h3{
+    color: black;
+} */
+.hero-content{
+    background-image: url("./hero-img.png");
+    padding: 300px 0px;
+}
+.hero-text{
+    text-align: center;
+    padding-bottom: 120px;
+}
+.hero-text h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+.hero-text h3{
+    font-weight: 400;
+    font-size: 36px;
+}
+.hero-text span{
+    color: #226CF1;
+}
+.search-box label,input{
+    display: block;
+}
+.search-box input{
+    margin-bottom: 30px;
+}
+.search-box label{
+    margin-bottom: 20px;
+}
+
+.search-box label{
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.search-box1 span{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}

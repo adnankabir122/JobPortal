@@ -1,0 +1,39 @@
+.job-offer-text-area{
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+.job-offer-text h2{
+    color: black;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.job-offer-text p{
+    color: rgb(97, 97, 97);
+    font-size: 16px;
+    margin: 0;
+}
+.offer-nav nav{
+    width: 37%;
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+.offer-nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.offer-nav ul li{
+    
+}
+.offer-nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 25px 80px;
+    background: #226CF1;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
