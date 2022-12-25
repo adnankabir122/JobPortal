@@ -1,8 +1,12 @@
-import React from "react";
-import "./ContactUs.css";
-import Menu from "../Menu/Menu";
-import SectionHeader from "../SectionHeader/SectionHeader";
-import SubHeader from "../SectionHeader/SubHeader/SubHeader";
+import React from "react"
+import "./ContactUs.css"
+import Menu from "../Menu/Menu"
+import SectionHeader from "../SectionHeader/SectionHeader"
+import SubHeader from "../SectionHeader/SubHeader/SubHeader"
+import ContactForm from "./ContactForm/ContactForm"
+import ContactCardArea from "./ContactCardArea/ContactCardArea"
+import Footer from "../Footer/Footer"
+import ApplyNow from "../ApplyNow/ApplyNow"
 const ContactUs = () => {
   const subHeaderData = {
     heading: "Let’s Get In Touch!",
@@ -17,35 +21,11 @@ const ContactUs = () => {
       </div>
 
       <SectionHeader title="Contact Us" />
-
       <SubHeader subHeaderData={subHeaderData} />
-
-      <div className="contact-form-area">
-        <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <div className="contact-input-field">
-                        <input type="text" placeholder="Enter your name"/>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="contact-input-field">
-                        <input type="text" placeholder="Subject"/>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="contact-input-field">
-                        <input type="text" placeholder="Enter your email"/>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="contact-input-field">
-                        <input type="text" placeholder="Enter your number"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
+      <ContactForm />
+      <ContactCardArea/>
+      <ApplyNow/>
+      <Footer/>
     </div>
   );
 };

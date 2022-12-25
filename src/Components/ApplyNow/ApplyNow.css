@@ -1,0 +1,29 @@
+.apply-now-area{
+    padding: 0px 0px 80px 0px;
+}
+.apply-left{
+        background: #226CF1;
+        padding: 70px 40px;
+}
+.apply-right{
+    background: #0B1640;
+    padding: 70px 40px;
+}
+.content h4,h2{
+    color: white;
+}
+.content h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.content h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.content-right a{
+    font-family: "Open Sans";
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}

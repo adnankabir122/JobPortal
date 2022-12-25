@@ -1,0 +1,30 @@
+.contact-card-content{
+    border: 1px solid rgb(0, 0, 0,.4);
+    padding: 40px 0px;
+    transition: .3s;
+    cursor: pointer;
+}
+.contact-text h4{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.contact-text p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0,.6);  
+}
+.contact-card-content:hover{
+    border: none;
+    background: #226CF1;
+}
+.contact-card-content:hover h4{
+    color: white;
+}
+.contact-card-content:hover p{
+    color: white;
+}
