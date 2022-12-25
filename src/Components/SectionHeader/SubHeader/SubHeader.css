@@ -1,0 +1,12 @@
+.sub-header-area{
+    padding: 120px 0;
+    background-color: white;
+}
+.sub-header-text h2{
+    font-size: 36px;
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.sub-header-text p{
+}
