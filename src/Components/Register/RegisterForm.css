@@ -1,0 +1,8 @@
+.form-input-field{
+    margin-bottom: 20px;
+}
+.form-input-field input{
+    padding: 16px 0px 13px 16px;
+    width: 100%;
+    border: .5px solid rgb(0, 0, 0,.4);
+}

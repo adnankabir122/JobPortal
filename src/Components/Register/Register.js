@@ -3,6 +3,7 @@ import Menu from "../Menu/Menu";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import SubHeader from "../SectionHeader/SubHeader/SubHeader";
 import "./Register.css";
+import RegisterForm from "./RegisterForm";
 const Register = () => {
   const subHeaderData = {
     heading: "Create Your Account",
@@ -15,6 +16,7 @@ const Register = () => {
       </div>
       <SectionHeader title="Register" />
       <SubHeader subHeaderData={subHeaderData} />
+      <RegisterForm/>
     </div>
   );
 };

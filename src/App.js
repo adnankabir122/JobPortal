@@ -4,6 +4,7 @@ import About from "./Components/About/About";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Home from "./Components/Home/Home";
 import NoPage from "./Components/NoPage/NoPage";
+import Register from "./Components/Register/Register";
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
           <Route path="candidates" element={<About/>} />
           <Route path="about" element={<About/>} />
           <Route path="contact" element={<ContactUs/>} />
+          
+          <Route path="register" element={<Register/>} />
           <Route path="*" element={<NoPage/>} />
         </Routes>
       </BrowserRouter>
