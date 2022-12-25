@@ -19,7 +19,6 @@ const ContactUs = () => {
       <div className="menu-with-bg main-bg">
         <Menu />
       </div>
-
       <SectionHeader title="Contact Us" />
       <SubHeader subHeaderData={subHeaderData} />
       <ContactForm />

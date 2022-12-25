@@ -5,7 +5,7 @@ import design_trends from "./design-trends.png";
 import ui_experts from "./ui-experts.png";
 const Footer = () => {
   return (
-    <div className="footer-area">
+    <div className="footer-area text-white">
       {/* Footer Top Start    */}
       <div className="footer-top">
         <div className="container">

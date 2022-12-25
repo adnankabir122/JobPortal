@@ -1,29 +1,26 @@
 import React from "react";
 import "./JobCards.css";
-import card_img from "./card_img.png";
+import JobSingleCard from "./JobSingleCard";
+import jobCardsData from "./jobCardsData";
+
 const JobCards = () => {
   return (
-    <div>
-      <div className="card-container">
-        <div className="card-img">
-          <img src={card_img} alt="" />
-        </div>
-        <div className="card-heading">
-          <h2>
-            Marketing and Communications
-            <span> via Fast Systems Consultants</span>
-          </h2>
-        </div>
-        <div className="card-info">
-          <div className="info-top">
-            <span>Wellesley Rd, London</span>
-            <span>IT & Telecoms</span>
-            <span>Full time</span>
-          </div>
-          <div className="info-bottom d-flex justify-content-between">
-            <span>1m,ago</span>
-            <span>1m,ago</span>
-          </div>
+    <div className="job-card-area">
+      <div className="container">
+        <div className="row">
+          {jobCardsData.map((singleData, index) => {
+            return (
+              <JobSingleCard
+                img={singleData.img}
+                title={singleData.title}
+                subTitle={singleData.subTitle}
+                address={singleData.address}
+                companyType={singleData.companyType}
+                jobType={singleData.jobType}
+                time={singleData.time}
+              />
+            );
+          })}
         </div>
       </div>
     </div>
@@ -31,3 +28,22 @@ const JobCards = () => {
 };
 
 export default JobCards;
+// <div className="job-card-area">
+//   <div className="container">
+//     <div className="row">
+//       {jobCardsData.map((singleData, index) => {
+//         return (
+//           <JobSingleCard
+//             img={singleData.img}
+//             title={singleData.title}
+//             subTitle={singleData.subTitle}
+//             address={address}
+//             companyType={companyType}
+//             jobType={jobType}
+//             time={time}
+//           />
+//         );
+//       })}
+//     </div>
+//   </div>
+// </div>

@@ -2,13 +2,18 @@ import React from "react";
 import ApplyNow from "../ApplyNow/ApplyNow";
 import Footer from "../Footer/Footer";
 import JobCards from "../JobCards/JobCards";
-import JobOffer from "../JobOffer/JobOffer";
 import Menu from "../Menu/Menu";
-import SectionHeader from "../SectionHeader/SectionHeader";
 import HeroArea from "./HeroArea/HeroArea";
 import "./Home.css";
+import SubHeader from "../SectionHeader/SubHeader/SubHeader";
 
 const Home = () => {
+  const subHeaderData = {
+    heading: "Job Offers & Candidate",
+    paragraph:
+      "It's easy. Simply post a job you need completed and receive competitive bids from freelancers within minutes",
+  };
+
   return (
     <div>
       <div className="header">
@@ -21,7 +26,7 @@ const Home = () => {
       </div>
 
       <div className="main">
-        <JobOffer/>
+        <SubHeader subHeaderData={subHeaderData} />
         <JobCards />
       </div>
 
