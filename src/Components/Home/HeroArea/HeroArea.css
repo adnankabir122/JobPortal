@@ -1,42 +1,73 @@
-/* .hero-text h1,h3{
-    color: black;
-} */
-.hero-content{
-    background-image: url("./hero-img.png");
-    padding: 300px 0px;
+.hero-content .hero-text h1,
+h3 {
+  color: white;
 }
-.hero-text{
-    text-align: center;
-    padding-bottom: 120px;
+.hero-content {
+  background-image: url("./hero-img.png");
+  padding: 300px 0px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
 }
-.hero-text h1{
-    font-weight: bold;
-    font-size: 48px;
+.hero-text {
+  text-align: center;
+  padding-bottom: 120px;
 }
-.hero-text h3{
-    font-weight: 400;
-    font-size: 36px;
+.hero-text h1 {
+  font-weight: bold;
+  font-size: 48px;
 }
-.hero-text span{
-    color: #226CF1;
+.hero-text h3 {
+  font-weight: 400;
+  font-size: 36px;
 }
-.search-box label,input{
-    display: block;
+.hero-text span {
+  color: #226cf1;
 }
-.search-box input{
-    margin-bottom: 30px;
+.search-box label,
+input {
+  display: block;
 }
-.search-box label{
-    margin-bottom: 20px;
+.search-box input {
+  width: 100%;
+  padding: 25px 0px 25px 25px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 25px;
+}
+.search-box input::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 0.6);
+}
+.search-box label {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.search-box1 span {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
 }
 
-.search-box label{
-    color:white;
-    font-size: 14px;
-    font-weight: 600;
+.search-btn button {
+  padding: 25px 37px;
+  display: flex;
+  border-radius: 10px;
+  border: none;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  background: #226cf1;
+  color: white;
+  margin-bottom: 25px;
 }
-.search-box1 span{
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
+.search-btn span {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
 }
