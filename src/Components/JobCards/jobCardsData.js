@@ -10,7 +10,7 @@ const jobCardsData = [
       address:"Wellesley Rd, London",
       companyType:"IT & Telecoms",
       jobType:"Full time",
-      time:"1m, ago"
+      time:"1m"
     },
     {
       img: uiu,
@@ -19,7 +19,7 @@ const jobCardsData = [
       address:"Wellesley Rd, London",
       companyType:"IT & Telecoms",
       jobType:"Full time",
-      time:"1m, ago"
+      time:"1m"
     },
     {
       img: uiu,
@@ -28,7 +28,7 @@ const jobCardsData = [
       address:"Wellesley Rd, London",
       companyType:"IT & Telecoms",
       jobType:"Full time",
-      time:"1m, ago"
+      time:"1m"
     },
 
 ];

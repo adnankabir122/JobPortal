@@ -8,6 +8,15 @@ const JobCards = () => {
     <div className="job-card-area">
       <div className="container">
         <div className="row">
+          <div className="col-md-12">
+            <div className="job-card-top d-flex justify-content-end">
+              <div>
+                <span className="job-no">1996</span>
+                <span className="job-found">Jobs Found</span>
+              </div>
+            </div>
+          </div>
+
           {jobCardsData.map((singleData, index) => {
             return (
               <JobSingleCard
@@ -28,22 +37,3 @@ const JobCards = () => {
 };
 
 export default JobCards;
-// <div className="job-card-area">
-//   <div className="container">
-//     <div className="row">
-//       {jobCardsData.map((singleData, index) => {
-//         return (
-//           <JobSingleCard
-//             img={singleData.img}
-//             title={singleData.title}
-//             subTitle={singleData.subTitle}
-//             address={address}
-//             companyType={companyType}
-//             jobType={jobType}
-//             time={time}
-//           />
-//         );
-//       })}
-//     </div>
-//   </div>
-// </div>

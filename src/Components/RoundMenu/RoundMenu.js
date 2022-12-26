@@ -1,14 +1,14 @@
 import React from "react";
-
+import "./RoundMenu.css"
 const RoundMenu = () => {
   return (
-    <div className="job-offer-card-area">
+    <div className="rounded-menu-area">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row">
           <div className="col-md-12">
             <div className="offer-nav d-flex justify-content-center">
-              <nav className="d-flex justify-content-center p-2">
-                <ul>
+              <nav>
+                <ul className="d-flex">
                   <li>
                     <a href="#">Jobs</a>
                   </li>
