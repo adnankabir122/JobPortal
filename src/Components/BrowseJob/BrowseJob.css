@@ -1,0 +1,39 @@
+.jobs-area{
+    padding: 100px 0px;
+}
+.left-search-box input{
+    padding: 16px 0px 13px 16px;
+    width: 100%;
+    border: .5px solid rgb(0, 0, 0,.4);
+    border-radius: 3px;
+    margin-bottom: 36px;
+}
+.left-search-box input::placeholder{
+    color: rgb(0, 0, 0,.6);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.option-header{
+    margin-bottom: 15px;
+}
+.option-picker-area .option-header h4{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+}
+.option-picker-area .option-header button{
+    background: none;
+    border: none;
+    padding: 0;
+}
+.single-option input.checks:checked{
+    border-radius: 50%;
+    padding: 5px;
+}
+.single-option label{
+    margin-left: 10px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: rgb(0, 0, 0,.6);
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import About from "./Components/About/About";
+import BrowseJob from "./Components/BrowseJob/BrowseJob";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Home from "./Components/Home/Home";
 import NoPage from "./Components/NoPage/NoPage";
@@ -13,7 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="home" element={<Home/>} />
-          <Route path="jobs" element={<About/>} />
+          <Route path="jobs" element={<BrowseJob/>} />
           <Route path="candidates" element={<About/>} />
           <Route path="about" element={<About/>} />
           <Route path="contact" element={<ContactUs/>} />

@@ -9,14 +9,14 @@
     background: #0B1640;
     padding: 70px 40px;
 }
-.content h4,h2{
-    color: white;
-}
+
 .content h4{
+    color: white;
     font-size: 16px;
     font-weight: 400;
 }
 .content h2{
+    color: white;
     font-size: 20px;
     font-weight: 700;
 }

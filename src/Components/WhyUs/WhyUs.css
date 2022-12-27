@@ -1,0 +1,23 @@
+.why-us-area{
+    padding: 100px 0px;
+    padding-top: 0px;
+}
+.why-us-text-top h2{
+    font-size: 36px;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+.why-us-text-top p{
+    font-family: "Open Sans";
+    line-height: 26px;
+    color: rgb(0, 0, 0,.6);
+    margin-top: 20px;
+}
+.why-us-text-bottom .bottom-content{
+    margin-top: 25px;
+}
+.why-us-text-bottom .bottom-content h6{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Open Sans";
+}

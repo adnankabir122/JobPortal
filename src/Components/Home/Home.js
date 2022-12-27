@@ -7,7 +7,9 @@ import HeroArea from "./HeroArea/HeroArea";
 import "./Home.css";
 import SubHeader from "../SectionHeader/SubHeader/SubHeader";
 import RoundMenu from "../RoundMenu/RoundMenu";
-import easyUseBg from "./easyUseBg.png"
+import easyUseBg from "./easyUseBg.png";
+import BuyPackages from "../BuyPackages/BuyPackages";
+import WhyUs from "../WhyUs/WhyUs";
 
 const Home = () => {
   const subHeaderData = {
@@ -27,15 +29,15 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="main">
-        <SubHeader subHeaderData={subHeaderData} />
-        <RoundMenu />
-        <JobCards />
-        <HireExperts />
-        <EasyUse/>
-        <ApplyNow />
-        <Footer />
-      </div>
+      <SubHeader subHeaderData={subHeaderData} />
+      <RoundMenu />
+      <JobCards />
+      <HireExperts />
+      <EasyUse />
+      <BuyPackages/>
+      <WhyUs/>
+      <ApplyNow />
+      <Footer />
     </div>
   );
 };
@@ -60,9 +62,6 @@ const HireExperts = () => {
     </div>
   );
 };
-
-
-
 
 //Easy Use
 const EasyUse = () => {
