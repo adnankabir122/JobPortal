@@ -1,9 +1,13 @@
 import React from "react";
-import Menu from "../Menu/Menu";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import SubHeader from "../SectionHeader/SubHeader/SubHeader";
+import TopNav from "../TopNav/TopNav";
 import "./Register.css";
 import RegisterForm from "./RegisterForm";
+import RoundMenu from "../RoundMenu/RoundMenu"
+import SocialLogin from "../SocialLogin/SocialLogin";
+import ApplyNow from "../ApplyNow/ApplyNow";
+import Footer from "../Footer/Footer"
 const Register = () => {
   const subHeaderData = {
     heading: "Create Your Account",
@@ -11,12 +15,14 @@ const Register = () => {
   };
   return (
     <div>
-      <div className="menu-with-bg main-bg">
-        <Menu/>
-      </div>
+      <TopNav/>
       <SectionHeader title="Register" />
       <SubHeader subHeaderData={subHeaderData} />
+      <RoundMenu link1="Employer" link2="Candidate"/>
       <RegisterForm/>
+      <SocialLogin/>
+      <ApplyNow/>
+      <Footer/>
     </div>
   );
 };

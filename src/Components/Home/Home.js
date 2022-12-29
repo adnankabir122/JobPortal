@@ -34,7 +34,7 @@ const Home = () => {
       {/* Header End  */}
 
       <SubHeader subHeaderData={subHeaderData} />
-      <RoundMenu />
+      <RoundMenu link1="Jobs" link2="Candidates" />
       <JobCards />
       <HireExperts />
       <EasyUse />

@@ -1,11 +1,11 @@
 import React from "react";
-import Menu from "../Menu/Menu";
+import TopNav from "../TopNav/TopNav";
 import "./NoPage.css"
 const NoPage = () => {
 
   return (
     <div>
-      <Menu />
+      <TopNav/>
       <div className="container">
         <div className="row">
           <div className="col-md-12">

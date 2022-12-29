@@ -1,6 +1,8 @@
 import React from "react";
 import "./RegisterForm.css";
-
+import FormShortField from "./FormShortField";
+import FormLongField from "./FormLongField";
+import { Link } from "react-router-dom";
 const RegisterForm = () => {
   return (
     <div className="register-form-area">
@@ -10,41 +12,31 @@ const RegisterForm = () => {
           <FormShortField label="Email Address" />
           <FormShortField label="Password" />
           <FormShortField label="Confirm Password" />
-
-          <div className="col-md-12">
-            <div className="form-input-field">
-              <label>Phone</label>
-              <input type="text" />
-            </div>
-          </div>
-          <div className="col-md-12">
-            <div className="form-input-field">
-              <label>Select Sector</label>
-              <input type="text" />
-            </div>
-          </div>
-          <div className="col-md-12">
-            <div className="form-button-area"></div>
-          </div>
+          <FormLongField label="Phone" />
+          <FormLongField label="Select Sector" />
+          <FormButton/>
         </div>
       </div>
     </div>
   );
 };
 export default RegisterForm;
-
-const FormShortField = (props) => {
+const FormButton = () => {
   return (
-    <>
-      <div className="col-md-6">
-        <div className="form-input-field">
-          <label>
-            {props.label}
-            <sup>*</sup>{" "}
-          </label>
-          <input type="text" />
+    <div className="col-md-12">
+      <div className="form-button-area d-flex justify-content-between align-items-center">
+        <Link to="/login">
+          <button>Sign Up</button>
+        </Link>
+        <div className="already-registered">
+          <span className="already-text">
+            Already registered?
+            <Link to="/login">
+              <span className="sign-in-text">Sign in here</span>
+            </Link>
+          </span>
         </div>
       </div>
-    </>
+    </div>
   );
 };

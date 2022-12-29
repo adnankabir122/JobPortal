@@ -1,6 +1,6 @@
 import React from "react";
 import "./RoundMenu.css"
-const RoundMenu = () => {
+const RoundMenu = (props) => {
   return (
     <div className="rounded-menu-area">
       <div className="container">
@@ -10,10 +10,10 @@ const RoundMenu = () => {
               <nav>
                 <ul className="d-flex">
                   <li>
-                    <a href="#">Jobs</a>
+                    <a href="#">{props.link1}</a>
                   </li>
                   <li>
-                    <a href="#">Candidates</a>
+                    <a href="#">{props.link2}</a>
                   </li>
                 </ul>
               </nav>

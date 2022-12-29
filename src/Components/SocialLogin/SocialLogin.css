@@ -1,0 +1,17 @@
+.social-card-container{
+    border: 1px solid rgb(0, 0, 0,.4);
+    padding: 35px 70px;
+}
+.social-card{
+    padding: 13px 0px;
+    margin-bottom: 18px;
+}
+.social-card svg{
+    margin-right: 15px;
+}
+.social-heading h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 0, 0,.4);
+    margin-bottom: 20px;
+}

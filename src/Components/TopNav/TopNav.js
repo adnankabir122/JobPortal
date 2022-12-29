@@ -3,11 +3,11 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./TopNav.css";
-import logo from "./logo.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-regular-svg-icons'
-import { faCirclePlus } from '@fortawesome/free-solid-svg-icons'
-import {Link } from "react-router-dom";
+import logo from "./logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { faCirclePlus } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const TopNav = () => {
   const menuItems = [
@@ -50,8 +50,18 @@ const TopNav = () => {
             })}
           </Nav>
           <Nav className="ms-auto">
-            <button className="menuBtn noBg"><FontAwesomeIcon icon={faUser} />Sign in</button>
-            <button className="menuBtn m-0 hasBg"><FontAwesomeIcon icon={faCirclePlus} />Post Job</button>
+            <Link to="/register">
+              <button className="menuBtn noBg" >
+                <FontAwesomeIcon icon={faUser} />
+                Sign in
+              </button>
+            </Link>
+            <Link to="/jobs">
+              <button className="menuBtn m-0 hasBg">
+                <FontAwesomeIcon icon={faCirclePlus} />
+                Post Job
+              </button>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

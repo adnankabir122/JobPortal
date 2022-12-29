@@ -6,3 +6,38 @@
     width: 100%;
     border: .5px solid rgb(0, 0, 0,.4);
 }
+.form-input-field label{
+    color: rgb(0, 0, 0,.6);
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.form-button-area{
+    padding: 40px 0px 100px 0px;
+}
+.form-button-area a button{
+    border: none;
+    background: #226CF1;
+    padding: 14px 75px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+}
+.form-button-area a button:hover{
+    background-color: #1e58c2;
+}
+.already-registered span{
+    font-weight: 600;
+    font-size: 14px;
+}
+.already-registered span.already-text{
+    color: rgb(0, 0, 0,.4);
+}
+.already-registered span a:hover{
+    text-decoration: underline;
+}
+.already-registered span.sign-in-text{
+    color: #226CF1;
+    padding-left: 3px;
+}
