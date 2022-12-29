@@ -9,7 +9,7 @@ const JobCards = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="job-card-top d-flex justify-content-end">
+            <div className="job-card-top d-flex justify-content-end pb-4">
               <div>
                 <span className="job-no">1996</span>
                 <span className="job-found">Jobs Found</span>
@@ -20,6 +20,7 @@ const JobCards = () => {
           {jobCardsData.map((singleData, index) => {
             return (
               <JobSingleCard
+                key={index}
                 img={singleData.img}
                 title={singleData.title}
                 subTitle={singleData.subTitle}

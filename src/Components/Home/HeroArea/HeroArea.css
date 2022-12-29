@@ -2,6 +2,7 @@
 h3 {
   color: white;
 }
+
 .hero-content {
   background-image: url("./hero-img.png");
   padding: 300px 0px;
@@ -63,6 +64,14 @@ input {
   background: #226cf1;
   color: white;
   margin-bottom: 25px;
+  transition: .3s;
+}
+.search-btn button:hover {
+  background: #ffffff;
+  color: #226cf1;
+}
+.search-btn button svg{
+  margin-right: 5px;
 }
 .search-btn span {
   display: block;

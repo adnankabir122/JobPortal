@@ -3,7 +3,8 @@ import "./WhyUs.css";
 import left from "./left.png";
 import rightTop from "./right-top.png";
 import rightBottom from "./right-bottom.png";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPeopleGroup,faMagnifyingGlass,faEnvelopeOpenText,faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 const WhyUs = () => {
   return (
     <div className="why-us-area">
@@ -65,22 +66,22 @@ const WhyUsText = () => {
         <div className="row">
             <div className="col-md-6 ">
                 <div className="bottom-content mb-5">
-                    <h6>Best talented people</h6>
+                    <h6><FontAwesomeIcon icon={faPeopleGroup} />Best talented people</h6>
                 </div>
             </div>
             <div className="col-md-6">
                 <div className="bottom-content mb-5">
-                    <h6>Easy to find candidate</h6>
+                    <h6><FontAwesomeIcon icon={faMagnifyingGlass} />Easy to find candidate</h6>
                 </div>
             </div>
             <div className="col-md-6">
                 <div className="bottom-content">
-                    <h6>Easy to communicate</h6>
+                    <h6><FontAwesomeIcon icon={faEnvelopeOpenText} />Easy to communicate</h6>
                 </div>
             </div>
             <div className="col-md-6">
                 <div className="bottom-content">
-                    <h6>Best recruitment option</h6>
+                    <h6 className="d-flex align-items-center"><FontAwesomeIcon icon={faFileArrowDown} />Best recruitment option</h6>
                 </div>
             </div>
         </div>

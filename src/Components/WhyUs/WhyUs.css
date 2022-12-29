@@ -16,8 +16,15 @@
 .why-us-text-bottom .bottom-content{
     margin-top: 25px;
 }
+.why-us-text-bottom .bottom-content h6 svg{
+    color: #226CF1;
+    font-size: 30px;
+    margin-right: 10px;
+}
 .why-us-text-bottom .bottom-content h6{
     font-size: 14px;
     font-weight: bold;
     font-family: "Open Sans";
+    display: flex;
+    align-items: center;
 }

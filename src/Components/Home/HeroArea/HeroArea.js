@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroArea.css";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch} from '@fortawesome/free-solid-svg-icons'
 const HeroArea = () => {
   return (
     <div className="hero-content">
@@ -52,7 +53,7 @@ const HeroSearchArea = () => {
           </div>
           <div className="col-md-2 d-flex align-items-end">
             <div className="search-btn">
-              <button>Find Job</button>
+              <button className="d-flex align-items-center"><FontAwesomeIcon icon={faSearch} />Find Job</button>
               <span>Advance search</span>
             </div>
           </div>
