@@ -27,7 +27,8 @@
     margin-bottom: 22px;
 }
 .footer-top-content.one p{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    padding-top: 10px;
 }
 .footer-top-content.one .address-content p{
     margin-bottom: 20px;
@@ -109,4 +110,7 @@
 }
 .newspaper-social-icon{
     margin-top: 30px;
+}
+.footer-top-content.news p{
+    padding-top: 40px;
 }

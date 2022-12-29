@@ -75,7 +75,7 @@ const OfficeAddress = () => {
 // Newsletter start
 const Newsletter = () => {
   return (
-    <div className="footer-top-content">
+    <div className="footer-top-content news">
       <h4>Newsletter</h4>
       <p>We shows only the best websites and portfolios.</p>
       <div className="newsletter-input">
