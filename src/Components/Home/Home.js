@@ -20,22 +20,24 @@ const Home = () => {
 
   return (
     <div>
+      {/* Header Start  */}
       <div className="header">
         <div className="main-menu-container topNav-no-bg">
-          <TopNav/>
+          <TopNav />
         </div>
         <div className="hero-area">
           <HeroArea />
         </div>
       </div>
+      {/* Header End  */}
 
       <SubHeader subHeaderData={subHeaderData} />
       <RoundMenu />
       <JobCards />
       <HireExperts />
       <EasyUse />
-      <BuyPackages/>
-      <WhyUs/>
+      <BuyPackages />
+      <WhyUs />
       <ApplyNow />
       <Footer />
     </div>

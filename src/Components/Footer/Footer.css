@@ -1,7 +1,4 @@
 
-/* .footer-area p,span,h1,h2,h3,h4,h5,h6{
-    color: white;
-} */
 .footer-area{
     padding:135px 0px 0px 0px;
     background:#0B1640;
@@ -10,15 +7,106 @@
     padding-bottom: 70px;
 }
 .footer-top-content ul.delivery_info {
-    padding: 20px 0px;
-    
+    padding: 40px 0px; 
 }
 .footer-top-content .delivery_info li a{
     color: white;
     text-decoration: none;
     padding-bottom: 20px;
 }
+.footer-top-content .delivery_info li:hover a{
+    color: rgb(224, 154, 50);
+}
+
 .footer-bottom-content{
     padding: 40px 0px;
     border-top:1px solid white;
+}
+
+.footer-logo{
+    margin-bottom: 22px;
+}
+.footer-top-content.one p{
+    margin-bottom: 15px;
+}
+.footer-top-content.one .address-content p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Open Sans";
+}
+.footer-top-content.one .address-content svg{
+    margin-right: 13px;
+    font-size: 18px;
+}
+.footer-top-content h4{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.footer-top-content h4::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 20%;
+    background: white;
+    border-radius: 50px;
+}
+.recent-post h4 {
+    margin-bottom: 60px;
+}
+.recent-post .post{
+    margin-bottom: 25px;
+}
+.recent-post .post .inner-img{
+    margin-right: 20px;
+}
+.post .inner-text h6{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 6px;
+}
+.inner-text span {
+    font-size: 11px;
+    color: white;
+}
+.inner-text svg{
+    font-size: 11px;
+    margin-right: 10px;
+}
+.newsletter-input {
+    position: relative;
+}
+.newsletter-input input{
+    padding: 11px 0px 11px 13px;
+    border-radius:4px;
+    margin-top: 35px;
+    border: none;
+}
+.newsletter-input input::placeholder{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0,.6);
+} 
+.newsletter-input .location-arr {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #226CF1;
+    width: 20%;
+    height: 100%;
+}
+.newsletter-input .location-arr svg{
+    position: absolute;
+    top: 35%;
+    right: 40%;
+}
+.newspaper-social-icon{
+    margin-top: 30px;
 }
