@@ -1,15 +1,13 @@
 import React from "react";
-import Menu from "../Menu/Menu";
 import SectionHeader from "../SectionHeader/SectionHeader";
+import TopNav from "../TopNav/TopNav";
 import aboutBg from "./aboutBg.png";
 const About = () => {
   return (
     <div>
-      <div className="menu-with-bg main-bg">
-        <Menu />
-      </div>
+      <TopNav />
       <SectionHeader title="About Us" />
-      <MillionJobs/>
+      <MillionJobs />
     </div>
   );
 };

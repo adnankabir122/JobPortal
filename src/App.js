@@ -6,6 +6,7 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import Home from "./Components/Home/Home";
 import NoPage from "./Components/NoPage/NoPage";
 import Register from "./Components/Register/Register";
+import TopNav from "./Components/TopNav/TopNav";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="candidates" element={<About/>} />
           <Route path="about" element={<About/>} />
           <Route path="contact" element={<ContactUs/>} />
+          <Route path="demo" element={<TopNav/>} />
           
           <Route path="register" element={<Register/>} />
           <Route path="*" element={<NoPage/>} />

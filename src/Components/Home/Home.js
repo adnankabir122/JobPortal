@@ -2,7 +2,6 @@ import React from "react";
 import ApplyNow from "../ApplyNow/ApplyNow";
 import Footer from "../Footer/Footer";
 import JobCards from "../JobCards/JobCards";
-import Menu from "../Menu/Menu";
 import HeroArea from "./HeroArea/HeroArea";
 import "./Home.css";
 import SubHeader from "../SectionHeader/SubHeader/SubHeader";
@@ -10,6 +9,7 @@ import RoundMenu from "../RoundMenu/RoundMenu";
 import easyUseBg from "./easyUseBg.png";
 import BuyPackages from "../BuyPackages/BuyPackages";
 import WhyUs from "../WhyUs/WhyUs";
+import TopNav from "../TopNav/TopNav";
 
 const Home = () => {
   const subHeaderData = {
@@ -21,8 +21,8 @@ const Home = () => {
   return (
     <div>
       <div className="header">
-        <div className="main-menu-container">
-          <Menu />
+        <div className="main-menu-container topNav-no-bg">
+          <TopNav/>
         </div>
         <div className="hero-area">
           <HeroArea />

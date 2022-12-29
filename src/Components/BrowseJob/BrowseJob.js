@@ -1,18 +1,16 @@
 import React from "react";
 import "./BrowseJob.css";
 import SectionHeader from "../SectionHeader/SectionHeader";
-import Menu from "../Menu/Menu";
 import ArrowDown from "./arrow-down.png";
 import jobCardsData from "../JobCards/jobCardsData";
 import JobSingleCard from "../JobCards/JobSingleCard";
-import ApplyNow from "../ApplyNow/ApplyNow"
-import Footer from "../Footer/Footer"
+import ApplyNow from "../ApplyNow/ApplyNow";
+import Footer from "../Footer/Footer";
+import TopNav from "../TopNav/TopNav";
 const BrowseJob = () => {
   return (
     <div>
-      <div className="menu-with-bg main-bg">
-        <Menu />
-      </div>
+      <TopNav />
       <SectionHeader title="Browse Jobs" />
       <div className="jobs-area">
         <div className="container">
@@ -26,8 +24,8 @@ const BrowseJob = () => {
           </div>
         </div>
       </div>
-      <ApplyNow/>
-      <Footer/>
+      <ApplyNow />
+      <Footer />
     </div>
   );
 };

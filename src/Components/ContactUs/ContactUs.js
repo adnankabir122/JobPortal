@@ -1,12 +1,12 @@
-import React from "react"
-import "./ContactUs.css"
-import Menu from "../Menu/Menu"
-import SectionHeader from "../SectionHeader/SectionHeader"
-import SubHeader from "../SectionHeader/SubHeader/SubHeader"
-import ContactForm from "./ContactForm/ContactForm"
-import ContactCardArea from "./ContactCardArea/ContactCardArea"
-import Footer from "../Footer/Footer"
-import ApplyNow from "../ApplyNow/ApplyNow"
+import React from "react";
+import "./ContactUs.css";
+import SectionHeader from "../SectionHeader/SectionHeader";
+import SubHeader from "../SectionHeader/SubHeader/SubHeader";
+import ContactForm from "./ContactForm/ContactForm";
+import ContactCardArea from "./ContactCardArea/ContactCardArea";
+import Footer from "../Footer/Footer";
+import ApplyNow from "../ApplyNow/ApplyNow";
+import TopNav from "../TopNav/TopNav";
 const ContactUs = () => {
   const subHeaderData = {
     heading: "Let’s Get In Touch!",
@@ -16,15 +16,13 @@ const ContactUs = () => {
 
   return (
     <div>
-      <div className="menu-with-bg main-bg">
-        <Menu />
-      </div>
+      <TopNav />
       <SectionHeader title="Contact Us" />
       <SubHeader subHeaderData={subHeaderData} />
       <ContactForm />
-      <ContactCardArea/>
-      <ApplyNow/>
-      <Footer/>
+      <ContactCardArea />
+      <ApplyNow />
+      <Footer />
     </div>
   );
 };
