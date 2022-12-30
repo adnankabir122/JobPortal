@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./JobCards.css";
 import JobSingleCard from "./JobSingleCard";
 import jobCardsData from "./jobCardsData";
 
 const JobCards = () => {
+  const [noOfElement,setNoOfElement]= useState([6]);
+  const slice = jobCardsData.slice(0,noOfElement)
+  const loadMore=()=>{
+    setNoOfElement(noOfElement + noOfElement)
+  }
   return (
     <div className="job-card-area">
       <div className="container">
@@ -17,7 +22,7 @@ const JobCards = () => {
             </div>
           </div>
 
-          {jobCardsData.map((singleData, index) => {
+          {slice.map((singleData, index) => {
             return (
               <JobSingleCard
                 key={index}
@@ -31,6 +36,11 @@ const JobCards = () => {
               />
             );
           })}
+        </div>
+        <div className="row">
+          <div className="more-btn text-center">
+            <button className="btn" onClick={()=>loadMore()}>More</button>
+          </div>
         </div>
       </div>
     </div>

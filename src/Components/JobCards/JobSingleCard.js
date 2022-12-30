@@ -9,8 +9,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 const JobSingleCard = (props) => {
+
   return (
-    // <div className="col-md-4">
+    <div className="col-md-4">
       <div className="job-card-content">
         <div className="card-img text-center w-100">
           <img src={props.img} alt="" />
@@ -49,6 +50,7 @@ const JobSingleCard = (props) => {
           </div>
         </div>
       </div>
+    </div>
   );
 };
 

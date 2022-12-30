@@ -1,0 +1,23 @@
+.dashboard-menu-area{
+    position: absolute;
+    bottom: -12%;
+    left: 0;
+    right: 0;
+}
+.dashboard-menu{
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0,.4);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    
+}
+.dashboard-menu a{
+    padding: 14px 30px;
+    font-size: 16px;
+    color: rgb(0, 0, 0,.4);
+    font-weight: 600;
+}
+.dashboard-menu a:hover{
+    background-color: #226CF1;
+    color: white;
+}

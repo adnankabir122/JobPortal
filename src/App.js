@@ -1,7 +1,6 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import About from "./Components/About/About";
-import ApplyNow from "./Components/ApplyNow/ApplyNow";
 import BrowseJob from "./Components/BrowseJob/BrowseJob";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Home from "./Components/Home/Home";
@@ -15,6 +14,8 @@ import CandidateSavejobs from "./Components/CandidateSavejobs/CandidateSavejobs"
 import CandidateManageJobs from "./Components/CandidateManageJobs/CandidateManageJobs";
 import CandidatePricingPlan from "./Components/CandidatePricingPlan/CandidatePricingPlan";
 import BrowseCandidates from "./Components/BrowseCandidates/BrowseCandidates";
+import EmployerDashboard from "./Components/EmployerDashboard/EmployerDashboard";
+import EmployerProfile from "./Components/EmployerProfile/EmployerProfile";
 
 const App = () => {
   return (
@@ -36,6 +37,8 @@ const App = () => {
           <Route path="savedJobs" element={<CandidateSavejobs/>} />
           <Route path="manageJobs" element={<CandidateManageJobs/>} />
           <Route path="pricingPlan" element={<CandidatePricingPlan/>} />
+          <Route path="employerDashboard" element={<EmployerDashboard/>} />
+          <Route path="emyProfile" element={<EmployerProfile/>} />
           <Route path="demo" element={<Login/>} />
           
           <Route path="*" element={<NoPage/>} />
