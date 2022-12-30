@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { HashRouter, Routes, Route} from "react-router-dom";
 import About from "./Components/About/About";
 import BrowseJob from "./Components/BrowseJob/BrowseJob";
 import ContactUs from "./Components/ContactUs/ContactUs";
@@ -20,7 +20,7 @@ import EmployerProfile from "./Components/EmployerProfile/EmployerProfile";
 const App = () => {
   return (
     <div>
-      <BrowserRouter basename={process.env.PUBLIC_URL} >
+      <HashRouter basename={process.env.PUBLIC_URL} >
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="home" element={<Home/>} />
@@ -43,7 +43,7 @@ const App = () => {
           
           <Route path="*" element={<NoPage/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
