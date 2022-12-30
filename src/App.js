@@ -20,7 +20,7 @@ import EmployerProfile from "./Components/EmployerProfile/EmployerProfile";
 const App = () => {
   return (
     <div>
-      <HashRouter basename={process.env.PUBLIC_URL} >
+      <HashRouter basename='/JobPortal' >
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="home" element={<Home/>} />
