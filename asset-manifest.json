@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/JobPortal/static/css/main.013731fa.css",
+    "main.js": "/JobPortal/static/js/main.55399aa8.js",
+    "static/media/hero-img.png": "/JobPortal/static/media/hero-img.4f073a6e00e31c9734bf.png",
+    "static/media/hireBg.png": "/JobPortal/static/media/hireBg.a99411b78de0b64e47b4.png",
+    "static/media/aboutBg.png": "/JobPortal/static/media/aboutBg.5067c3c48dbea0db9381.png",
+    "static/media/left.png": "/JobPortal/static/media/left.885a46d786e4271e99bc.png",
+    "static/media/right-top.png": "/JobPortal/static/media/right-top.61ea3d4ab373f7ba3a9c.png",
+    "static/media/right-bottom.png": "/JobPortal/static/media/right-bottom.1e81b8a9d25754811337.png",
+    "static/media/easyUseBg.png": "/JobPortal/static/media/easyUseBg.32e43889d7d213177e80.png",
+    "static/media/dash-image.png": "/JobPortal/static/media/dash-image.77253d26d1f4a4ddc7e2.png",
+    "static/media/company.png": "/JobPortal/static/media/company.165b3119cbf7cbef2537.png",
+    "static/media/uiu.png": "/JobPortal/static/media/uiu.165b3119cbf7cbef2537.png",
+    "static/media/ui-experts.png": "/JobPortal/static/media/ui-experts.3cb6ebc292409ac1552f.png",
+    "static/media/design-trends.png": "/JobPortal/static/media/design-trends.f59e3679c64a769b0c3a.png",
+    "index.html": "/JobPortal/index.html",
+    "main.013731fa.css.map": "/JobPortal/static/css/main.013731fa.css.map",
+    "main.55399aa8.js.map": "/JobPortal/static/js/main.55399aa8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.013731fa.css",
+    "static/js/main.55399aa8.js"
+  ]
+}
