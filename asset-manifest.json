@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JobPortal/static/css/main.013731fa.css",
-    "main.js": "/JobPortal/static/js/main.566e364d.js",
+    "main.js": "/JobPortal/static/js/main.57846dd7.js",
     "static/media/hero-img.png": "/JobPortal/static/media/hero-img.4f073a6e00e31c9734bf.png",
     "static/media/hireBg.png": "/JobPortal/static/media/hireBg.a99411b78de0b64e47b4.png",
     "static/media/aboutBg.png": "/JobPortal/static/media/aboutBg.5067c3c48dbea0db9381.png",
@@ -16,10 +16,10 @@
     "static/media/design-trends.png": "/JobPortal/static/media/design-trends.f59e3679c64a769b0c3a.png",
     "index.html": "/JobPortal/index.html",
     "main.013731fa.css.map": "/JobPortal/static/css/main.013731fa.css.map",
-    "main.566e364d.js.map": "/JobPortal/static/js/main.566e364d.js.map"
+    "main.57846dd7.js.map": "/JobPortal/static/js/main.57846dd7.js.map"
   },
   "entrypoints": [
     "static/css/main.013731fa.css",
-    "static/js/main.566e364d.js"
+    "static/js/main.57846dd7.js"
   ]
 }
