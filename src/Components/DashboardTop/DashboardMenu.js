@@ -28,7 +28,7 @@ const DashboardMenu = () => {
       name: "Pricing plan",
     },
     {
-      path: "/home",
+      path: "/JobPortal",
       name: "Log out",
     },
   ];
