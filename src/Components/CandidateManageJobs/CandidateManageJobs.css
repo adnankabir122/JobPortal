@@ -1,0 +1,18 @@
+.manage-job-table{
+    padding: 80px 0px 150px 0px;
+}
+.manage-job-table table thead th{
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: rgb(0, 0, 0,.6);
+}
+.manage-job-table table thead{
+    background-color: #F2F2F2;
+}
+.manage-job-table table tr td{
+    padding-left: 25px!important;
+}
+.manage-job-table table thead tr th{
+    padding-left: 25px!important;
+}

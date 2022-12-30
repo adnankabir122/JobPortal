@@ -7,6 +7,8 @@ import JobSingleCard from "../JobCards/JobSingleCard";
 import ApplyNow from "../ApplyNow/ApplyNow";
 import Footer from "../Footer/Footer";
 import TopNav from "../TopNav/TopNav";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const BrowseJob = () => {
   return (
     <div>
@@ -15,10 +17,10 @@ const BrowseJob = () => {
       <div className="jobs-area">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-3">
               <LeftPanel />
             </div>
-            <div className="col-md-8">
+            <div className="col-md-9">
               <JobsCardContainer />
             </div>
           </div>
@@ -87,15 +89,29 @@ const JobsCardContainer = () => {
     <div className="jobs-card-container">
       <div className="row">
         <div className="show-page-jobs">
-          <h2>Showing 1-10 of 28 Jobs</h2>
+          <h2>
+            Showing 1-10 of <span>28 Jobs</span>{" "}
+          </h2>
         </div>
       </div>
       <div className="row">
-        <div className="sort-by-area">
-          <button>Get job alert</button>
+        <div className="sort-by-area d-flex align-items-center justify-content-between">
+          <button>
+            <FontAwesomeIcon icon={faEnvelope} />
+            Get job alert
+          </button>
           <div className="sort-by">
-            <span>sort by</span>
-            <span>Newest</span>
+            <span className="sort-by-text">Sort by</span>
+            <span>
+              <select id="options">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="vw">VW</option>
+                <option value="audi" selected>
+                  Newest
+                </option>
+              </select>
+            </span>
           </div>
         </div>
       </div>

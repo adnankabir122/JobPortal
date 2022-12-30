@@ -8,7 +8,7 @@ const FormShortField = (props) => {
           {props.label}
           <sup>*</sup>{" "}
         </label>
-        <input type="text" />
+        <input type="text" placeholder={props.placeholder}/>
       </div>
     </div>
   );

@@ -37,3 +37,30 @@
     font-size: 16px;
     color: rgb(0, 0, 0,.6);
 }
+.show-page-jobs h2{
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.show-page-jobs h2 span{ 
+    color: #226CF1;
+}
+.sort-by-area button{
+    background: none;
+    background: #226CF1;
+    border: none;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.sort-by-area button svg{
+    margin-right: 7px;
+}
+.sort-by .sort-by-text{
+    font-size: 16px;
+    margin-right: 10px;
+} 
+.sort-by-area{
+    padding-bottom: 30px;
+}

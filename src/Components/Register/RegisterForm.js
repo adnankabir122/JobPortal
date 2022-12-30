@@ -21,6 +21,7 @@ const RegisterForm = () => {
   );
 };
 export default RegisterForm;
+
 const FormButton = () => {
   return (
     <div className="col-md-12">

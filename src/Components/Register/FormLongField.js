@@ -5,7 +5,7 @@ const FormLongField = (props) => {
     <div className="col-md-12">
       <div className="form-input-field">
         <label>{props.label}</label>
-        <input type="text" />
+        <input type="text" placeholder={props.placeholder}/>
       </div>
     </div>
   );

@@ -1,7 +1,8 @@
 import React from "react";
 import "./HeroArea.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 const HeroArea = () => {
   return (
     <div className="hero-content">
@@ -53,7 +54,12 @@ const HeroSearchArea = () => {
           </div>
           <div className="col-md-2 d-flex align-items-end">
             <div className="search-btn">
-              <button className="d-flex align-items-center"><FontAwesomeIcon icon={faSearch} />Find Job</button>
+              <Link to="/jobs">
+                <button className="d-flex align-items-center">
+                  <FontAwesomeIcon icon={faSearch} />
+                  Find Job
+                </button>
+              </Link>
               <span>Advance search</span>
             </div>
           </div>
