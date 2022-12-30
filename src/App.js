@@ -24,22 +24,22 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path='/JobPortal' element={<Home/>} />
-          <Route path="jobs" element={<BrowseJob/>} />
-          <Route path="candidates" element={<BrowseCandidates/>} />
-          <Route path="candidates" element={<About/>} />
-          <Route path="about" element={<About/>} />
-          <Route path="contact" element={<ContactUs/>} />
-          <Route path="register" element={<Register/>} />
-          <Route path="login" element={<Login/>} />
-          <Route path="candidateDashboard" element={<CandidateDashboard/>} />
-          <Route path="myProfile" element={<CandidateProfile/>} />
-          <Route path="myResume" element={<CandidateResume/>} />
-          <Route path="savedJobs" element={<CandidateSavejobs/>} />
-          <Route path="manageJobs" element={<CandidateManageJobs/>} />
-          <Route path="pricingPlan" element={<CandidatePricingPlan/>} />
-          <Route path="employerDashboard" element={<EmployerDashboard/>} />
-          <Route path="emyProfile" element={<EmployerProfile/>} />
-          <Route path="demo" element={<Login/>} />
+          <Route path="/jobs" element={<BrowseJob/>} />
+          <Route path="/candidates" element={<BrowseCandidates/>} />
+          <Route path="/candidates" element={<About/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/contact" element={<ContactUs/>} />
+          <Route path="/register" element={<Register/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/candidateDashboard" element={<CandidateDashboard/>} />
+          <Route path="/myProfile" element={<CandidateProfile/>} />
+          <Route path="/myResume" element={<CandidateResume/>} />
+          <Route path="/savedJobs" element={<CandidateSavejobs/>} />
+          <Route path="/manageJobs" element={<CandidateManageJobs/>} />
+          <Route path="/pricingPlan" element={<CandidatePricingPlan/>} />
+          <Route path="/employerDashboard" element={<EmployerDashboard/>} />
+          <Route path="/emyProfile" element={<EmployerProfile/>} />
+          <Route path="/demo" element={<Login/>} />
           
           <Route path="*" element={<NoPage/>} />
         </Routes>

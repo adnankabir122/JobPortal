@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const TopNav = () => {
   const menuItems = [
     {
-      path: "/home",
+      path: "/JobPortal",
       name: "Home",
     },
     {
