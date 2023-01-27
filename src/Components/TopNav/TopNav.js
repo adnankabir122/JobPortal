@@ -10,30 +10,8 @@ import { faCirclePlus } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const TopNav = () => {
-  const menuItems = [
-    {
-      path: "/JobPortal",
-      name: "Home",
-    },
-    {
-      path: "/jobs",
-      name: "Jobs",
-    },
-    {
-      path: "/candidates",
-      name: "Candidates",
-    },
-    {
-      path: "/about",
-      name: "About",
-    },
-    {
-      path: "/contact",
-      name: "Contact",
-    },
-  ];
   return (
-    <Navbar className="topnav" expand="lg">
+    <Navbar className="topnav" expand="xl">
       <Container>
         <Navbar.Brand className="brand">
           <img src={logo} alt="" />
@@ -70,3 +48,26 @@ const TopNav = () => {
 };
 
 export default TopNav;
+
+const menuItems = [
+  {
+    path: "/JobPortal",
+    name: "Home",
+  },
+  {
+    path: "/jobs",
+    name: "Jobs",
+  },
+  {
+    path: "/candidates",
+    name: "Candidates",
+  },
+  {
+    path: "/about",
+    name: "About",
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+  },
+];

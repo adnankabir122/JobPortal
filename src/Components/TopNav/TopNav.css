@@ -66,3 +66,56 @@ nav.topnav{
       font-size: 14px;
     }
   }
+
+  /* Lg  */
+  @media screen and (max-width: 1199.98px) and (min-width: 576px){
+    .navbar-collapse.collapse.show{
+      background: rgb(38, 87, 202);
+      padding: 20px 0px;
+      margin-top: 20px;
+    }
+    .navbar-collapse.collapse.show a.nav-link{
+      padding: 20px;
+    }
+    .navbar-nav{
+      text-align: center;
+    }
+    .navbar-nav.menu-button-container{
+      margin-top: 20px;
+    }
+    .navbar-nav.menu-button-container a{
+      background: rgb(255, 255, 255);
+      margin-bottom: 10px;
+      color: #0B1640;
+    }
+    .navbar-nav.menu-button-container a button{
+      color: #0B1640;
+    }
+    button.navbar-toggler{
+      border: none;
+      background: white;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+  }
+
+
+
+
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media screen and (max-width: 1399.98px) and (min-width: 1200px){
+  .navbar-brand img{
+    max-width: 85%;
+  }
+  .navbar-nav .nav-link{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar-nav .list-items{
+    font-size: 15px;
+  }
+  .navbar-nav button.menuBtn{
+    font-size: 15px;
+    padding: 13px 20px;
+  }
+}
