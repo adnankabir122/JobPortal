@@ -35,8 +35,8 @@ nav.topnav{
 }
 
 /* Responsiveness */
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+/* All devices (up to >1200px) */
+@media (max-width: 1199.98px) {
     .navbar-collapse.collapse.show{
       background: rgb(38, 87, 202);
       padding: 20px 0px;
@@ -52,12 +52,14 @@ nav.topnav{
       margin-top: 20px;
     }
     .navbar-nav.menu-button-container a{
-      background: rgb(255, 255, 255);
       margin-bottom: 10px;
       color: #0B1640;
     }
     .navbar-nav.menu-button-container a button{
       color: #0B1640;
+      background: rgb(255, 255, 255);
+      font-size: 14px;
+      margin-right: 0;
     }
     button.navbar-toggler{
       border: none;
@@ -65,43 +67,10 @@ nav.topnav{
       border-radius: 3px;
       font-size: 14px;
     }
-  }
-
-  /* Lg  */
-  @media screen and (max-width: 1199.98px) and (min-width: 576px){
-    .navbar-collapse.collapse.show{
-      background: rgb(38, 87, 202);
-      padding: 20px 0px;
-      margin-top: 20px;
-    }
-    .navbar-collapse.collapse.show a.nav-link{
-      padding: 20px;
-    }
-    .navbar-nav{
-      text-align: center;
-    }
-    .navbar-nav.menu-button-container{
-      margin-top: 20px;
-    }
-    .navbar-nav.menu-button-container a{
-      background: rgb(255, 255, 255);
-      margin-bottom: 10px;
-      color: #0B1640;
-    }
-    .navbar-nav.menu-button-container a button{
-      color: #0B1640;
-    }
-    button.navbar-toggler{
-      border: none;
-      background: white;
-      border-radius: 3px;
+    .nav-link .list-items{
       font-size: 14px;
     }
   }
-
-
-
-
   /* X-Large devices (large desktops, 1200px and up) */
   @media screen and (max-width: 1399.98px) and (min-width: 1200px){
   .navbar-brand img{
