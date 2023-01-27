@@ -6,7 +6,7 @@
   padding-bottom: 70px;
 }
 .offer-nav nav {
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0,.4);
   padding: 8px;
   border-radius: 50px;
 }
@@ -14,7 +14,7 @@
 .offer-nav nav ul li a {
   text-decoration: none;
   display: inline-block;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0,.8);
   padding: 20px 100px;
   font-weight: 600;
   font-size: 20px;
@@ -24,4 +24,12 @@
 .offer-nav nav ul li:hover a {
   background-color: #226CF1;
   color: white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .offer-nav nav ul li a{
+    font-size: 14px;
+    padding: 15px 65px;
+  }
 }

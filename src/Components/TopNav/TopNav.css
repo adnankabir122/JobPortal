@@ -33,3 +33,36 @@ nav.topnav{
     color: #226cf1;
     margin-right: 10px;
 }
+
+/* Responsiveness */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .navbar-collapse.collapse.show{
+      background: rgb(38, 87, 202);
+      padding: 20px 0px;
+      margin-top: 20px;
+    }
+    .navbar-collapse.collapse.show a.nav-link{
+      padding: 20px;
+    }
+    .navbar-nav{
+      text-align: center;
+    }
+    .navbar-nav.menu-button-container{
+      margin-top: 20px;
+    }
+    .navbar-nav.menu-button-container a{
+      background: rgb(255, 255, 255);
+      margin-bottom: 10px;
+      color: #0B1640;
+    }
+    .navbar-nav.menu-button-container a button{
+      color: #0B1640;
+    }
+    button.navbar-toggler{
+      border: none;
+      background: white;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+  }

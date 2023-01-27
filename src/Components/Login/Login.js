@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 import FormLongField from "../Register/FormLongField";
 import RoundMenu from "../RoundMenu/RoundMenu";
 import SectionHeader from "../SectionHeader/SectionHeader";
-import SubHeader from "../SectionHeader/SubHeader/SubHeader";
+import SubHeader from "../SubHeader/SubHeader";
 import SocialLogin from "../SocialLogin/SocialLogin";
 import TopNav from "../TopNav/TopNav";
 import { Link } from "react-router-dom";

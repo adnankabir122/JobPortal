@@ -1,0 +1,29 @@
+.sub-header-area{
+    padding: 100px 0px 45px 0px;
+    background-color: white;
+}
+.sub-header-text h2{
+    font-size: 36px;
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .sub-header-area{
+        padding: 80px 0px 60px 0px;
+    }
+    .sub-header-text{
+        padding: 0px 50px;
+    }
+    .sub-header-text h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .sub-header-text p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}

@@ -49,15 +49,15 @@ const TopNav = () => {
               );
             })}
           </Nav>
-          <Nav className="ms-auto">
+          <Nav className="ms-auto menu-button-container">
             <Link to="/register">
-              <button className="menuBtn noBg" >
+              <button className="menuBtn" >
                 <FontAwesomeIcon icon={faUser} />
                 Sign in
               </button>
             </Link>
             <Link to="/jobs">
-              <button className="menuBtn m-0 hasBg">
+              <button className="menuBtn m-0">
                 <FontAwesomeIcon icon={faCirclePlus} />
                 Post Job
               </button>

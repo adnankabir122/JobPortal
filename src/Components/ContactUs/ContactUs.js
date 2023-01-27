@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactUs.css";
 import SectionHeader from "../SectionHeader/SectionHeader";
-import SubHeader from "../SectionHeader/SubHeader/SubHeader";
+import SubHeader from "../SubHeader/SubHeader";
 import ContactForm from "./ContactForm/ContactForm";
 import Footer from "../Footer/Footer";
 import ApplyNow from "../ApplyNow/ApplyNow";

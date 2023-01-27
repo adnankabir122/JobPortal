@@ -1,13 +1,14 @@
-import React from "react";
-import SectionHeader from "../SectionHeader/SectionHeader";
-import SubHeader from "../SectionHeader/SubHeader/SubHeader";
-import TopNav from "../TopNav/TopNav";
-import "./Register.css";
-import RegisterForm from "./RegisterForm";
+import React from "react"
+import SectionHeader from "../SectionHeader/SectionHeader"
+import SubHeader from "../SubHeader/SubHeader"
+import TopNav from "../TopNav/TopNav"
+import "./Register.css"
+import RegisterForm from "./RegisterForm"
 import RoundMenu from "../RoundMenu/RoundMenu"
-import SocialLogin from "../SocialLogin/SocialLogin";
-import ApplyNow from "../ApplyNow/ApplyNow";
+import SocialLogin from "../SocialLogin/SocialLogin"
+import ApplyNow from "../ApplyNow/ApplyNow"
 import Footer from "../Footer/Footer"
+
 const Register = () => {
   const subHeaderData = {
     heading: "Create Your Account",

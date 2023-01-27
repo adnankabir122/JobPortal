@@ -10,6 +10,7 @@
 .job-card-content .card-heading h2 {
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 .job-card-content .card-heading .via {
   font-size: 13px;

@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 import JobCards from "../JobCards/JobCards";
 import HeroArea from "./HeroArea/HeroArea";
 import "./Home.css";
-import SubHeader from "../SectionHeader/SubHeader/SubHeader";
+import SubHeader from "../SubHeader/SubHeader";
 import RoundMenu from "../RoundMenu/RoundMenu";
 import easyUseBg from "./easyUseBg.png";
 import BuyPackages from "../BuyPackages/BuyPackages";

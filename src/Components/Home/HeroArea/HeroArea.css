@@ -80,3 +80,38 @@ input {
   font-weight: 600;
   color: white;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .hero-content{
+    padding: 250px 0px 150px 0px;
+  }
+  .hero-text{
+    padding-bottom: 80px;
+  }
+  .hero-text h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .hero-text h3{
+    font-size: 24px;
+  }
+  .hero-search-area .search-box label{
+    margin-bottom: 20px;
+  }
+  .hero-search-area .search-box2{
+    margin-top: 30px;
+  }
+  .hero-search-area .search-box2 label{
+    margin-top: 20px;
+  }
+  .search-btn button{
+    font-size: 14px;
+    padding: 18px 30px;
+    margin-top:20px ;
+    margin-bottom: 15px;
+  }
+  .search-btn span{
+    text-align: center;
+  }
+}
