@@ -7,8 +7,11 @@ import BuyPackages from "../BuyPackages/BuyPackages";
 import WhyUs from "../WhyUs/WhyUs";
 import ApplyNow from "../ApplyNow/ApplyNow";
 import Footer from "../Footer/Footer";
-import SecondarySingleCard from "../ContactUs/SecondarySingleCard/SecondarySingleCard";
+import SecondarySingleCard from "../SecondarySingleCard/SecondarySingleCard";
 import cardData from "./AboutCardData";
+
+
+
 const About = () => {
   return (
     <div>

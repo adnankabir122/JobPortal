@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
 import ApplyNow from "../ApplyNow/ApplyNow";
 import TopNav from "../TopNav/TopNav";
 import cardData from "./contactCardData";
-import SecondarySingleCard from "./SecondarySingleCard/SecondarySingleCard";
+import SecondarySingleCard from "../SecondarySingleCard/SecondarySingleCard";
 const ContactUs = () => {
   const subHeaderData = {
     heading: "Let’s Get In Touch!",

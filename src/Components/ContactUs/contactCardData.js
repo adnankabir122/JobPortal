@@ -15,7 +15,7 @@ const cardData = [
     {
       img: message,
       title: "Email",
-      subTitle: "support@jobber.demogethelp@jobber.demo"
+      subTitle: "support@jobber.demo"
     },
   ];
 export default cardData

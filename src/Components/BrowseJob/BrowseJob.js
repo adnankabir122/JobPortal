@@ -9,6 +9,7 @@ import Footer from "../Footer/Footer";
 import TopNav from "../TopNav/TopNav";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const BrowseJob = () => {
   return (
     <div>

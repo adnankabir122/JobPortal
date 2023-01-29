@@ -1,9 +1,11 @@
 import React from "react";
 import "./SecondarySingleCard.css"
+
+
 const SecondarySingleCard = (props) => {
   console.log(props);
   return (
-    <div className="col-md-4">
+    <div className="col-lg-4 col-md-4 mb-3">
       <div className="secondary-card-content text-center">
         <div className="contact-image">
             <img src={props.img} alt="" />
