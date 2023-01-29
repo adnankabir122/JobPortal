@@ -1,6 +1,6 @@
 import React from "react";
 import jobCardsData from "../JobCards/jobCardsData";
-import JobSingleCard from "../JobCards/JobSingleCard";
+import JobSingleCard from "../JobSingleCard/JobSingleCard";
 import "./RecentAppliedJobs.css";
 import DashboardHeading from "../DashboardHeading/DashboardHeading";
 const RecentAppliedJobs = (props) => {

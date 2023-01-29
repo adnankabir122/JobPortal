@@ -3,7 +3,7 @@ import "./BrowseJob.css";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import ArrowDown from "./arrow-down.png";
 import jobCardsData from "../JobCards/jobCardsData";
-import JobSingleCard from "../JobCards/JobSingleCard";
+import JobSingleCard from "../JobSingleCard/JobSingleCard";
 import ApplyNow from "../ApplyNow/ApplyNow";
 import Footer from "../Footer/Footer";
 import TopNav from "../TopNav/TopNav";
@@ -86,7 +86,7 @@ const OptionPicker = () => {
 
 const JobsCardContainer = () => {
   return (
-    <div className="jobs-card-container">
+    <>
       <div className="row">
         <div className="show-page-jobs">
           <h2>
@@ -116,9 +116,9 @@ const JobsCardContainer = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-6">
-          {jobCardsData.map((singleData, index) => {
-            return (
+        {jobCardsData.map((singleData, index) => {
+          return (
+            <div className="col-md-6">
               <JobSingleCard
                 img={singleData.img}
                 title={singleData.title}
@@ -128,10 +128,10 @@ const JobsCardContainer = () => {
                 jobType={singleData.jobType}
                 time={singleData.time}
               />
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
       </div>
-    </div>
+    </>
   );
 };

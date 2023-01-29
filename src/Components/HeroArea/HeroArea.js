@@ -39,20 +39,20 @@ const HeroSearchArea = () => {
     <div className="hero-search-area">
       <div className="container">
         <div className="row">
-          <div className="col-md-5">
+          <div className="col-xl-5 col-lg-5 col-md-12">
             <div className="search-box search-box1">
               <label>Search</label>
               <input type="text" placeholder="job,company,title" />
               <span>Trending Keywords : CSE, BBA, MBA, EEE</span>
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-xl-5 col-lg-5 col-md-12">
             <div className="search-box search-box2">
               <label>Where</label>
               <input type="text" placeholder="city, county or postcode" />
             </div>
           </div>
-          <div className="col-md-2 d-flex align-items-end">
+          <div className="col-xl-2 col-lg-2 d-flex align-items-end">
             <div className="search-btn">
               <Link to="/jobs">
                 <button className="d-flex align-items-center">

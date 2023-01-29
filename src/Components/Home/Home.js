@@ -1,15 +1,15 @@
-import React from "react";
-import ApplyNow from "../ApplyNow/ApplyNow";
-import Footer from "../Footer/Footer";
-import JobCards from "../JobCards/JobCards";
-import HeroArea from "./HeroArea/HeroArea";
-import "./Home.css";
-import SubHeader from "../SubHeader/SubHeader";
-import RoundMenu from "../RoundMenu/RoundMenu";
-import easyUseBg from "./easyUseBg.png";
-import BuyPackages from "../BuyPackages/BuyPackages";
-import WhyUs from "../WhyUs/WhyUs";
-import TopNav from "../TopNav/TopNav";
+import React from "react"
+import ApplyNow from "../ApplyNow/ApplyNow"
+import Footer from "../Footer/Footer"
+import JobCards from "../JobCards/JobCards"
+import HeroArea from "../HeroArea/HeroArea"
+import "./Home.css"
+import SubHeader from "../SubHeader/SubHeader"
+import RoundMenu from "../RoundMenu/RoundMenu"
+import easyUseBg from "./easyUseBg.png"
+import BuyPackages from "../BuyPackages/BuyPackages"
+import WhyUs from "../WhyUs/WhyUs"
+import TopNav from "../TopNav/TopNav"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileLines,faMagnifyingGlass,faPeopleGroup,faBriefcase} from '@fortawesome/free-solid-svg-icons'
 

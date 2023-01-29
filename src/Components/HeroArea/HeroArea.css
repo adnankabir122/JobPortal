@@ -64,13 +64,13 @@ input {
   background: #226cf1;
   color: white;
   margin-bottom: 25px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .search-btn button:hover {
   background: #ffffff;
   color: #226cf1;
 }
-.search-btn button svg{
+.search-btn button svg {
   margin-right: 5px;
 }
 .search-btn span {
@@ -83,35 +83,70 @@ input {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-  .hero-content{
+  .hero-content {
     padding: 250px 0px 150px 0px;
   }
-  .hero-text{
+  .hero-text {
     padding-bottom: 80px;
   }
-  .hero-text h1{
+  .hero-text h1 {
     font-size: 48px;
     margin-bottom: 20px;
   }
-  .hero-text h3{
+  .hero-text h3 {
     font-size: 24px;
   }
-  .hero-search-area .search-box label{
+  .hero-search-area .search-box label {
     margin-bottom: 20px;
   }
-  .hero-search-area .search-box2{
+  .hero-search-area .search-box2 {
     margin-top: 30px;
   }
-  .hero-search-area .search-box2 label{
+  .hero-search-area .search-box2 label {
     margin-top: 20px;
   }
-  .search-btn button{
+  .search-btn button {
     font-size: 14px;
     padding: 18px 30px;
-    margin-top:20px ;
+    margin-top: 20px;
     margin-bottom: 15px;
+  }
+  .search-btn span {
+    text-align: center;
+  }
+}
+
+/* xl */
+@media screen and (max-width: 1399.98px) and (min-width: 1200px) {
+  .search-btn button {
+    padding: 25px 30px;
+    margin-bottom: 27px;
+  }
+  .search-box input {
+    padding: 23px 0px 23px 25px;
+  }
+}
+/* lg */
+@media screen and (max-width: 1199.98px) and (min-width: 992px) {
+  .search-btn button {
+    padding: 28px 21px;
+  }
+  .hero-content{
+    padding: 250px 0px;
+  }
+}
+/* md */
+@media screen and (max-width: 991.98px) and (min-width: 768px) {
+  .hero-text{
+    padding-bottom: 70px;
+  }
+  .hero-content{
+    padding: 250px 0px;
+  }
+  .search-box1{
+    margin-bottom: 40px;
   }
   .search-btn span{
     text-align: center;
-  }
+  } 
 }
