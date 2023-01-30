@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route,Link} from "react-router-dom";
 import About from "./Components/About/About";
 import BrowseJob from "./Components/BrowseJob/BrowseJob";
 import ContactUs from "./Components/ContactUs/ContactUs";
@@ -16,6 +16,8 @@ import CandidatePricingPlan from "./Components/CandidatePricingPlan/CandidatePri
 import BrowseCandidates from "./Components/BrowseCandidates/BrowseCandidates";
 import EmployerDashboard from "./Components/EmployerDashboard/EmployerDashboard";
 import EmployerProfile from "./Components/EmployerProfile/EmployerProfile";
+import PostJob from "./Components/PostJob/PostJob";
+import JobDetails from "./Components/JobDetails/JobDetails";
 
 const App = () => {
   return (
@@ -31,6 +33,8 @@ const App = () => {
           <Route path="/contact" element={<ContactUs/>} />
           <Route path="/register" element={<Register/>} />
           <Route path="/login" element={<Login/>} />
+          <Route path="/postjob" element={<PostJob/>} />
+          <Route path="/jobDetails" element={<JobDetails/>} />
           <Route path="/candidateDashboard" element={<CandidateDashboard/>} />
           <Route path="/myProfile" element={<CandidateProfile/>} />
           <Route path="/myResume" element={<CandidateResume/>} />

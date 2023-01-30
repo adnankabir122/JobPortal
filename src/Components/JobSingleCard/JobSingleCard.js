@@ -8,11 +8,12 @@ import {
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
 const JobSingleCard = (props) => {
-
   return (
     // <div className="col-lg-4 col-md-6">
-      <div className="job-card-content">
+    <Link to="/jobDetails" >
+      <div className="job-card-content card-hover">
         <div className="card-img text-center w-100">
           <img src={props.img} alt="" />
         </div>
@@ -50,6 +51,8 @@ const JobSingleCard = (props) => {
           </div>
         </div>
       </div>
+    </Link>
+
     // </div>
   );
 };

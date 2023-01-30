@@ -5,6 +5,8 @@ import right from "./right.png";
 import {Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
+// Apply Now Start 
 const ApplyNow = () => {
   return (
     <div className="apply-now-area">
@@ -34,8 +36,9 @@ const ApplyNow = () => {
   );
 };
 export default ApplyNow;
+// Apply Now End 
 
-//Components
+//Others Components Start
 const ApplyNowCard = (props) => {
   const myStyle = {
     background: `${props.color}`,
@@ -60,3 +63,4 @@ const ApplyNowCard = (props) => {
     </div>
   );
 };
+//Others Component End

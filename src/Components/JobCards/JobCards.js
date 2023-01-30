@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./JobCards.css";
 import JobSingleCard from "../JobSingleCard/JobSingleCard";
 import jobCardsData from "./jobCardsData";
-
+import {Link} from "react-router-dom";
 const JobCards = () => {
   const [noOfElement, setNoOfElement] = useState([6]);
   const slice = jobCardsData.slice(0, noOfElement);
@@ -26,7 +26,7 @@ const JobCards = () => {
           {/* Showing All Job Cards  */}
           {slice.map((singleData, index) => {
             return (
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6" as={Link} to="/jobDetails">
                 <JobSingleCard
                   key={index}
                   img={singleData.img}

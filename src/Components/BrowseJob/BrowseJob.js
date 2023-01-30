@@ -10,30 +10,39 @@ import TopNav from "../TopNav/TopNav";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+// Browse Jobs start
 const BrowseJob = () => {
   return (
     <div>
       <TopNav />
       <SectionHeader title="Browse Jobs" />
-      <div className="jobs-area">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-3">
-              <LeftPanel />
-            </div>
-            <div className="col-md-9">
-              <JobsCardContainer />
-            </div>
-          </div>
-        </div>
-      </div>
+      <JobsArea/>
       <ApplyNow />
       <Footer />
     </div>
   );
 };
-
 export default BrowseJob;
+// Browse Jobs End
+
+// Others Component Start
+const JobsArea = () => {
+  return (
+    <div className="jobs-area">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3">
+            <LeftPanel />
+          </div>
+          <div className="col-md-9">
+            <JobsCardContainer />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 
 const LeftPanel = () => {
   return (
@@ -136,3 +145,6 @@ const JobsCardContainer = () => {
     </>
   );
 };
+
+export {JobsArea, LeftPanel, OptionPicker, JobsCardContainer}
+// Others Component End

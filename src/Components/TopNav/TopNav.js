@@ -34,7 +34,7 @@ const TopNav = () => {
                 Sign in
               </button>
             </Link>
-            <Link to="/jobs">
+            <Link to="/postjob">
               <button className="menuBtn m-0">
                 <FontAwesomeIcon icon={faCirclePlus} />
                 Post Job

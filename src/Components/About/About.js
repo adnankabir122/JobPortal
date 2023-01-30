@@ -11,7 +11,7 @@ import SecondarySingleCard from "../SecondarySingleCard/SecondarySingleCard";
 import cardData from "./AboutCardData";
 
 
-
+//About Us Start
 const About = () => {
   return (
     <div>
@@ -27,7 +27,10 @@ const About = () => {
   );
 };
 export default About;
+//About Us End
 
+
+// Others Component Start
 const MillionJobs = () => {
   return (
     <div className="million-jobs-area">
@@ -75,3 +78,4 @@ const AboutCard = () => {
     </div>
   );
 };
+// Others Component End

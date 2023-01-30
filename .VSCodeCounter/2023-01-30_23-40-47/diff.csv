@@ -1,0 +1,9 @@
+"filename", "language", "Markdown", "JSON", "HTML", "YAML", "comment", "blank", "total"
+"q:\fydp\job\.github\workflows\firebase-hosting-pull-request.yml", "YAML", 0, 0, 0, -14, -2, -2, -18
+"q:\fydp\job\README.md", "Markdown", -38, 0, 0, 0, 0, -33, -71
+"q:\fydp\job\firebase.json", "JSON", 0, -7, 0, 0, -10, 0, -17
+"q:\fydp\job\package-lock.json", "JSON", 0, -30011, 0, 0, 0, -1, -30012
+"q:\fydp\job\package.json", "JSON", 0, -52, 0, 0, 0, -2, -54
+"q:\fydp\job\public\404.html", "HTML", 0, 0, -20, 0, 0, -2, -22
+"q:\fydp\job\public\index.html", "HTML", 0, 0, -42, 0, -25, -1, -68
+"Total", "-", -38, -30070, -62, -14, -37, -41, -30262

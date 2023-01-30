@@ -59,3 +59,9 @@
   color: #226cf1;
   margin-right: 5px;
 }
+.card-hover{
+  transition: .3s;
+}
+.card-hover:hover{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

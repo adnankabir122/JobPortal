@@ -1,0 +1,149 @@
+Date : 2023-01-30 23:40:47
+Directory : q:\fydp\job\src
+Total : 85 files,  3542 codes, 63 comments, 199 blanks, all 3804 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         47 |      2,413 |         46 |        156 |      2,615 |
+| CSS        |         38 |      1,129 |         17 |         43 |      1,189 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                    | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                       |         85 |      3,542 |         63 |        199 |      3,804 |
+| . (Files)                                                               |          3 |         95 |          0 |         10 |        105 |
+| Components                                                              |         82 |      3,447 |         63 |        189 |      3,699 |
+| Components\About                                                        |          3 |        110 |          4 |          5 |        119 |
+| Components\ApplyNow                                                     |          2 |         93 |          4 |          4 |        101 |
+| Components\BrowseCandidates                                             |          2 |         19 |          0 |          5 |         24 |
+| Components\BrowseJob                                                    |          2 |        206 |          4 |          7 |        217 |
+| Components\BuyPackages                                                  |          2 |         99 |          0 |          3 |        102 |
+| Components\CandidateDashboard                                           |          2 |         27 |          0 |          5 |         32 |
+| Components\CandidateManageJobs                                          |          2 |        138 |          3 |          5 |        146 |
+| Components\CandidatePricingPlan                                         |          1 |         18 |          0 |          2 |         20 |
+| Components\CandidateProfile                                             |          2 |         99 |          0 |          5 |        104 |
+| Components\CandidateResume                                              |          1 |         18 |          0 |          2 |         20 |
+| Components\CandidateSavejobs                                            |          1 |         18 |          0 |          2 |         20 |
+| Components\ContactUs                                                    |          5 |        148 |          2 |          8 |        158 |
+| Components\ContactUs (Files)                                            |          3 |         72 |          2 |          5 |         79 |
+| Components\ContactUs\ContactForm                                        |          2 |         76 |          0 |          3 |         79 |
+| Components\DashboardHeading                                             |          2 |         17 |          0 |          2 |         19 |
+| Components\DashboardStat                                                |          2 |         65 |          0 |          3 |         68 |
+| Components\DashboardTop                                                 |          4 |        173 |          0 |          9 |        182 |
+| Components\EmployerDashboard                                            |          6 |        145 |          0 |         11 |        156 |
+| Components\EmployerProfile                                              |          2 |         82 |          0 |          6 |         88 |
+| Components\Footer                                                       |          2 |        286 |         11 |         11 |        308 |
+| Components\HeroArea                                                     |          2 |        210 |          5 |          9 |        224 |
+| Components\Home                                                         |          2 |        169 |         12 |         14 |        195 |
+| Components\JobCards                                                     |          3 |        166 |          2 |          4 |        172 |
+| Components\JobDetails                                                   |          2 |        218 |          9 |         12 |        239 |
+| Components\JobSingleCard                                                |          2 |        123 |          2 |          3 |        128 |
+| Components\Login                                                        |          2 |         57 |          0 |          1 |         58 |
+| Components\NoPage                                                       |          2 |         28 |          0 |          4 |         32 |
+| Components\PostJob                                                      |          2 |         17 |          0 |          3 |         20 |
+| Components\RecentAppliedJobs                                            |          2 |         36 |          0 |          3 |         39 |
+| Components\Register                                                     |          6 |        141 |          0 |         12 |        153 |
+| Components\RoundMenu                                                    |          2 |         59 |          1 |          4 |         64 |
+| Components\SecondarySingleCard                                          |          2 |         49 |          0 |          7 |         56 |
+| Components\SectionHeader                                                |          2 |         23 |          0 |          2 |         25 |
+| Components\SocialLogin                                                  |          2 |         61 |          0 |          3 |         64 |
+| Components\SubHeader                                                    |          2 |         46 |          1 |          4 |         51 |
+| Components\TopNav                                                       |          2 |        164 |          3 |          6 |        173 |
+| Components\WhyUs                                                        |          2 |        119 |          0 |          3 |        122 |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| q:\fydp\job\src\App.js                                                  | JavaScript |         52 |          0 |          4 |         56 |
+| q:\fydp\job\src\Components\About\About.css                              | CSS        |         17 |          0 |          0 |         17 |
+| q:\fydp\job\src\Components\About\About.js                               | JavaScript |         72 |          4 |          5 |         81 |
+| q:\fydp\job\src\Components\About\AboutCardData.js                       | JavaScript |         21 |          0 |          0 |         21 |
+| q:\fydp\job\src\Components\ApplyNow\ApplyNow.css                        | CSS        |         33 |          0 |          1 |         34 |
+| q:\fydp\job\src\Components\ApplyNow\ApplyNow.js                         | JavaScript |         60 |          4 |          3 |         67 |
+| q:\fydp\job\src\Components\BrowseCandidates\BrowseCandidates.css        | CSS        |          0 |          0 |          1 |          1 |
+| q:\fydp\job\src\Components\BrowseCandidates\BrowseCandidates.js         | JavaScript |         19 |          0 |          4 |         23 |
+| q:\fydp\job\src\Components\BrowseJob\BrowseJob.css                      | CSS        |         66 |          0 |          0 |         66 |
+| q:\fydp\job\src\Components\BrowseJob\BrowseJob.js                       | JavaScript |        140 |          4 |          7 |        151 |
+| q:\fydp\job\src\Components\BuyPackages\BuyPackages.css                  | CSS        |         33 |          0 |          0 |         33 |
+| q:\fydp\job\src\Components\BuyPackages\BuyPackages.js                   | JavaScript |         66 |          0 |          3 |         69 |
+| q:\fydp\job\src\Components\CandidateDashboard\CandidateDashboard.css    | CSS        |          4 |          0 |          2 |          6 |
+| q:\fydp\job\src\Components\CandidateDashboard\CandidateDashboard.js     | JavaScript |         23 |          0 |          3 |         26 |
+| q:\fydp\job\src\Components\CandidateManageJobs\CandidateManageJobs.css  | CSS        |         18 |          0 |          0 |         18 |
+| q:\fydp\job\src\Components\CandidateManageJobs\CandidateManageJobs.js   | JavaScript |        120 |          3 |          5 |        128 |
+| q:\fydp\job\src\Components\CandidatePricingPlan\CandidatePricingPlan.js | JavaScript |         18 |          0 |          2 |         20 |
+| q:\fydp\job\src\Components\CandidateProfile\CandidateProfile.css        | CSS        |         16 |          0 |          0 |         16 |
+| q:\fydp\job\src\Components\CandidateProfile\CandidateProfile.js         | JavaScript |         83 |          0 |          5 |         88 |
+| q:\fydp\job\src\Components\CandidateResume\CandidateResume.js           | JavaScript |         18 |          0 |          2 |         20 |
+| q:\fydp\job\src\Components\CandidateSavejobs\CandidateSavejobs.js       | JavaScript |         18 |          0 |          2 |         20 |
+| q:\fydp\job\src\Components\ContactUs\ContactForm\ContactForm.css        | CSS        |         33 |          0 |          1 |         34 |
+| q:\fydp\job\src\Components\ContactUs\ContactForm\ContactForm.js         | JavaScript |         43 |          0 |          2 |         45 |
+| q:\fydp\job\src\Components\ContactUs\ContactUs.css                      | CSS        |          3 |          0 |          0 |          3 |
+| q:\fydp\job\src\Components\ContactUs\ContactUs.js                       | JavaScript |         48 |          2 |          5 |         55 |
+| q:\fydp\job\src\Components\ContactUs\contactCardData.js                 | JavaScript |         21 |          0 |          0 |         21 |
+| q:\fydp\job\src\Components\DashboardHeading\DashboardHeading.css        | CSS        |          7 |          0 |          0 |          7 |
+| q:\fydp\job\src\Components\DashboardHeading\DashboardHeading.js         | JavaScript |         10 |          0 |          2 |         12 |
+| q:\fydp\job\src\Components\DashboardStat\DashboardStat.css              | CSS        |         22 |          0 |          0 |         22 |
+| q:\fydp\job\src\Components\DashboardStat\DashboardStat.js               | JavaScript |         43 |          0 |          3 |         46 |
+| q:\fydp\job\src\Components\DashboardTop\DashboardMenu.css               | CSS        |         22 |          0 |          1 |         23 |
+| q:\fydp\job\src\Components\DashboardTop\DashboardMenu.js                | JavaScript |         55 |          0 |          3 |         58 |
+| q:\fydp\job\src\Components\DashboardTop\DashboardTop.css                | CSS        |         46 |          0 |          1 |         47 |
+| q:\fydp\job\src\Components\DashboardTop\DashboardTop.js                 | JavaScript |         50 |          0 |          4 |         54 |
+| q:\fydp\job\src\Components\EmployerDashboard\EmployerDashboard.css      | CSS        |          4 |          0 |          3 |          7 |
+| q:\fydp\job\src\Components\EmployerDashboard\EmployerDashboard.js       | JavaScript |         23 |          0 |          3 |         26 |
+| q:\fydp\job\src\Components\EmployerDashboard\EmployerDashboardMenu.css  | CSS        |         22 |          0 |          1 |         23 |
+| q:\fydp\job\src\Components\EmployerDashboard\EmployerDashboardMenu.js   | JavaScript |         55 |          0 |          3 |         58 |
+| q:\fydp\job\src\Components\EmployerDashboard\EmployerDashboardTop.css   | CSS        |         12 |          0 |          0 |         12 |
+| q:\fydp\job\src\Components\EmployerDashboard\EmployerDashboardTop.js    | JavaScript |         29 |          0 |          1 |         30 |
+| q:\fydp\job\src\Components\EmployerProfile\EmployerProfile.css          | CSS        |          0 |          0 |          1 |          1 |
+| q:\fydp\job\src\Components\EmployerProfile\EmployerProfile.js           | JavaScript |         82 |          0 |          5 |         87 |
+| q:\fydp\job\src\Components\Footer\Footer.css                            | CSS        |        113 |          0 |          3 |        116 |
+| q:\fydp\job\src\Components\Footer\Footer.js                             | JavaScript |        173 |         11 |          8 |        192 |
+| q:\fydp\job\src\Components\HeroArea\HeroArea.css                        | CSS        |        144 |          4 |          5 |        153 |
+| q:\fydp\job\src\Components\HeroArea\HeroArea.js                         | JavaScript |         66 |          1 |          4 |         71 |
+| q:\fydp\job\src\Components\Home\Home.css                                | CSS        |         49 |          8 |          7 |         64 |
+| q:\fydp\job\src\Components\Home\Home.js                                 | JavaScript |        120 |          4 |          7 |        131 |
+| q:\fydp\job\src\Components\JobCards\JobCards.css                        | CSS        |         26 |          0 |          0 |         26 |
+| q:\fydp\job\src\Components\JobCards\JobCards.js                         | JavaScript |         55 |          0 |          2 |         57 |
+| q:\fydp\job\src\Components\JobCards\jobCardsData.js                     | JavaScript |         85 |          2 |          2 |         89 |
+| q:\fydp\job\src\Components\JobDetails\JobDetails.css                    | CSS        |         47 |          0 |          0 |         47 |
+| q:\fydp\job\src\Components\JobDetails\JobDetails.js                     | JavaScript |        171 |          9 |         12 |        192 |
+| q:\fydp\job\src\Components\JobSingleCard\JobSingleCard.css              | CSS        |         67 |          0 |          0 |         67 |
+| q:\fydp\job\src\Components\JobSingleCard\JobSingleCard.js               | JavaScript |         56 |          2 |          3 |         61 |
+| q:\fydp\job\src\Components\Login\Login.css                              | CSS        |          0 |          0 |          1 |          1 |
+| q:\fydp\job\src\Components\Login\Login.js                               | JavaScript |         57 |          0 |          0 |         57 |
+| q:\fydp\job\src\Components\NoPage\NoPage.css                            | CSS        |          6 |          0 |          1 |          7 |
+| q:\fydp\job\src\Components\NoPage\NoPage.js                             | JavaScript |         22 |          0 |          3 |         25 |
+| q:\fydp\job\src\Components\PostJob\PostJob.css                          | CSS        |          0 |          0 |          1 |          1 |
+| q:\fydp\job\src\Components\PostJob\PostJob.js                           | JavaScript |         17 |          0 |          2 |         19 |
+| q:\fydp\job\src\Components\RecentAppliedJobs\RecentAppliedJobs.css      | CSS        |          3 |          0 |          0 |          3 |
+| q:\fydp\job\src\Components\RecentAppliedJobs\RecentAppliedJobs.js       | JavaScript |         33 |          0 |          3 |         36 |
+| q:\fydp\job\src\Components\Register\FormLongField.js                    | JavaScript |         12 |          0 |          3 |         15 |
+| q:\fydp\job\src\Components\Register\FormShortField.js                   | JavaScript |         15 |          0 |          3 |         18 |
+| q:\fydp\job\src\Components\Register\Register.css                        | CSS        |          0 |          0 |          1 |          1 |
+| q:\fydp\job\src\Components\Register\Register.js                         | JavaScript |         29 |          0 |          3 |         32 |
+| q:\fydp\job\src\Components\Register\RegisterForm.css                    | CSS        |         43 |          0 |          0 |         43 |
+| q:\fydp\job\src\Components\Register\RegisterForm.js                     | JavaScript |         42 |          0 |          2 |         44 |
+| q:\fydp\job\src\Components\RoundMenu\RoundMenu.css                      | CSS        |         32 |          1 |          2 |         35 |
+| q:\fydp\job\src\Components\RoundMenu\RoundMenu.js                       | JavaScript |         27 |          0 |          2 |         29 |
+| q:\fydp\job\src\Components\SecondarySingleCard\SecondarySingleCard.css  | CSS        |         30 |          0 |          3 |         33 |
+| q:\fydp\job\src\Components\SecondarySingleCard\SecondarySingleCard.js   | JavaScript |         19 |          0 |          4 |         23 |
+| q:\fydp\job\src\Components\SectionHeader\SectionHeader.css              | CSS        |          8 |          0 |          0 |          8 |
+| q:\fydp\job\src\Components\SectionHeader\SectionHeader.js               | JavaScript |         15 |          0 |          2 |         17 |
+| q:\fydp\job\src\Components\SocialLogin\SocialLogin.css                  | CSS        |         17 |          0 |          0 |         17 |
+| q:\fydp\job\src\Components\SocialLogin\SocialLogin.js                   | JavaScript |         44 |          0 |          3 |         47 |
+| q:\fydp\job\src\Components\SubHeader\SubHeader.css                      | CSS        |         26 |          1 |          2 |         29 |
+| q:\fydp\job\src\Components\SubHeader\SubHeader.js                       | JavaScript |         20 |          0 |          2 |         22 |
+| q:\fydp\job\src\Components\TopNav\TopNav.css                            | CSS        |         94 |          3 |          2 |         99 |
+| q:\fydp\job\src\Components\TopNav\TopNav.js                             | JavaScript |         70 |          0 |          4 |         74 |
+| q:\fydp\job\src\Components\WhyUs\WhyUs.css                              | CSS        |         30 |          0 |          0 |         30 |
+| q:\fydp\job\src\Components\WhyUs\WhyUs.js                               | JavaScript |         89 |          0 |          3 |         92 |
+| q:\fydp\job\src\index.css                                               | CSS        |         36 |          0 |          3 |         39 |
+| q:\fydp\job\src\index.js                                                | JavaScript |          7 |          0 |          3 |         10 |
+| Total                                                                   |            |      3,542 |         63 |        199 |      3,804 |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
