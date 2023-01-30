@@ -17,13 +17,17 @@ h3 {
 .hero-text h1 {
   font-weight: bold;
   font-size: 48px;
+  margin-bottom: 15px;
 }
 .hero-text h3 {
   font-weight: 400;
   font-size: 36px;
 }
 .hero-text span {
-  color: #226cf1;
+  color: #ffffff;
+  background: #226cf1;
+  padding: 0px 15px;
+  border-radius: 10px;
 }
 .search-box label,
 input {
