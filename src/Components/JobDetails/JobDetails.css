@@ -45,3 +45,68 @@
     color:rgb(0, 0, 0,.6);
     margin-left: 10px;
 }
+
+.apply-share-area button.apply-btn{
+    background-color: #226CF1;
+    padding:14px 0px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.apply-share-area button.share-btn,button.print-btn{
+    background-color:white;
+    font-weight: 600;
+    color: rgb(0, 0, 0,.8);
+    border: 1px solid rgb(0, 0, 0,.4);
+    border-radius: 2px;
+    transition: .3s;
+}
+.apply-share-area button.share-btn{
+    padding:14px 0px;
+}
+.apply-share-area button.print-btn{
+    padding:13px 0px;
+}
+.apply-share-area button.share-btn:hover,button.print-btn:hover{
+    color: #226CF1;
+    background-color: rgba(161, 161, 161, 0.1);
+}
+.apply-share-area button.share-btn img,button.print-btn img{
+    margin-right: 10px;
+}
+.apply-share-area button.apply-btn:hover{
+    background-color: #164aac;
+}
+
+.quick-contacts-area{
+    padding: 80px 0px;
+}
+.quick-contacts-area h4{
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.quick-contacts-area input,textarea{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 14px 0px 14px 20px;
+}
+.quick-contacts-area input::placeholder{
+    font-size: 16px;
+    color: #626262;
+    font-weight: 600;
+}
+.quick-contacts-area button.send-msg-btn{
+    background-color: #226CF1;
+    padding:14px 0px;
+    font-weight: 600;
+    transition: .3s;
+}
+.quick-contacts-area button.send-msg-btn:hover{
+    background-color: #164aac;
+}
+.similar-jobs h4{
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

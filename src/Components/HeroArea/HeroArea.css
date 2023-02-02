@@ -24,10 +24,7 @@ h3 {
   font-size: 36px;
 }
 .hero-text span {
-  color: #ffffff;
-  background: #226cf1;
-  padding: 0px 15px;
-  border-radius: 10px;
+  color: #226cf1;;
 }
 .search-box label,
 input {
