@@ -12,7 +12,7 @@ const ApplyNow = () => {
     <div className="apply-now-area">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-12 col-lg-6">
             <ApplyNowCard
               img={left}
               title="Jobseeker"
@@ -21,7 +21,7 @@ const ApplyNow = () => {
               path="/jobs"
             />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-12 col-lg-6">
             <ApplyNowCard
               img={right}
               title="Recruiter"

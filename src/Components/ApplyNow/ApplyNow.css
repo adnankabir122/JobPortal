@@ -31,3 +31,19 @@
 .content-text h4 {
   margin-bottom: 5px;
 }
+
+
+@media screen and (max-width: 1199.98px) and (min-width: 992px) {
+  .content-img{
+    width: 15%;
+  }
+  .content-text h4{
+    font-size: 14px;
+  }
+  .content-text h2{
+    font-size: 17px;
+  }
+  .content-button a{
+    font-size: 15px;
+  }
+}

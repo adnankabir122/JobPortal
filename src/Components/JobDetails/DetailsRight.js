@@ -27,7 +27,7 @@ const SimilarJobs = () => {
         {/* Showing All Job Cards  */}
         {slice.map((singleData, index) => {
           return (
-            <div className="col-12" as={Link} to="/jobDetails">
+            <div className="col-lg-12 col-md-6" as={Link} to="/jobDetails">
               <JobSingleCard
                 key={index}
                 img={singleData.img}
@@ -43,7 +43,7 @@ const SimilarJobs = () => {
         })}
       </div>
       <div className="row">
-        <div className="text-center">
+        <div className="browse-more">
           <Link to="/jobs">
             <button className="btn btn-primary py-2 px-4">Browse More</button>
           </Link>

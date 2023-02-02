@@ -26,7 +26,7 @@ export default DetailsLeftTop;
 
 const SingleLeftTop = (props) => {
   return (
-    <div className="col-lg-4">
+    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6">
       <div className="single-left-top d-flex align-items-center">
         <img src={props.img} alt="" />
         <div className="single-left-top-text">
