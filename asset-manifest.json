@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JobPortal/static/css/main.e3ed6985.css",
-    "main.js": "/JobPortal/static/js/main.a487280f.js",
+    "main.css": "/JobPortal/static/css/main.421c77de.css",
+    "main.js": "/JobPortal/static/js/main.af566ce8.js",
     "static/media/hero-img.png": "/JobPortal/static/media/hero-img.4f073a6e00e31c9734bf.png",
     "static/media/hireBg.png": "/JobPortal/static/media/hireBg.a99411b78de0b64e47b4.png",
     "static/media/aboutBg.png": "/JobPortal/static/media/aboutBg.5067c3c48dbea0db9381.png",
@@ -15,11 +15,11 @@
     "static/media/ui-experts.png": "/JobPortal/static/media/ui-experts.3cb6ebc292409ac1552f.png",
     "static/media/design-trends.png": "/JobPortal/static/media/design-trends.f59e3679c64a769b0c3a.png",
     "index.html": "/JobPortal/index.html",
-    "main.e3ed6985.css.map": "/JobPortal/static/css/main.e3ed6985.css.map",
-    "main.a487280f.js.map": "/JobPortal/static/js/main.a487280f.js.map"
+    "main.421c77de.css.map": "/JobPortal/static/css/main.421c77de.css.map",
+    "main.af566ce8.js.map": "/JobPortal/static/js/main.af566ce8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3ed6985.css",
-    "static/js/main.a487280f.js"
+    "static/css/main.421c77de.css",
+    "static/js/main.af566ce8.js"
   ]
 }
