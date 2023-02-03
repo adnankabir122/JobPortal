@@ -6,7 +6,7 @@ const FormShortField = (props) => {
       <div className="form-input-field">
         <label>
           {props.label}
-          <sup>*</sup>{" "}
+          <sup>*</sup>
         </label>
         <input type="text" placeholder={props.placeholder}/>
       </div>
