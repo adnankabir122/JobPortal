@@ -96,8 +96,8 @@ const EasyUse = () => {
 // Counter Start
 const SingleCounter = (props) => {
   return (
-    <div className="col-md-3">
-      <div className="single-counter d-flex align-items-center">
+    <div className="col-lg-3 col-md-6">
+      <div className="single-counter d-flex align-items-center justify-content-center">
         <div className="counter-icon">
         <FontAwesomeIcon icon={props.myicon} />
         </div>

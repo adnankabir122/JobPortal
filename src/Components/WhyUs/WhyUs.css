@@ -13,9 +13,6 @@
     color: rgb(0, 0, 0,.6);
     margin-top: 20px;
 }
-.why-us-text-bottom .bottom-content{
-    margin-top: 25px;
-}
 .why-us-text-bottom .bottom-content h6 svg{
     color: #226CF1;
     font-size: 30px;
@@ -28,3 +25,18 @@
     display: flex;
     align-items: center;
 }
+.why-us-text-bottom {
+    margin-top: 70px;
+}
+
+@media (max-width: 991.98px) {
+    .why-us-img-area{
+        text-align: center;
+    }
+    .why-us-text{
+        margin-top: 80px;
+    }
+    .why-us-text-top h2,p{
+        text-align: center;
+    }
+  }

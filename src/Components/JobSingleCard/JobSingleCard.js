@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const JobSingleCard = (props) => {
   return (
     // <div className="col-lg-4 col-md-6">
-    <Link to="/jobDetails" >
+    <Link to="/jobDetails" className="w-100" >
       <div className="job-card-content card-hover">
         <div className="card-img text-center w-100">
           <img src={props.img} alt="" />

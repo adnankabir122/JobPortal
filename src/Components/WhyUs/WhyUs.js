@@ -3,8 +3,13 @@ import "./WhyUs.css";
 import left from "./left.png";
 import rightTop from "./right-top.png";
 import rightBottom from "./right-bottom.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPeopleGroup,faMagnifyingGlass,faEnvelopeOpenText,faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPeopleGroup,
+  faMagnifyingGlass,
+  faEnvelopeOpenText,
+  faFileArrowDown,
+} from "@fortawesome/free-solid-svg-icons";
 const WhyUs = () => {
   return (
     <div className="why-us-area">
@@ -21,15 +26,15 @@ export default WhyUs;
 
 const WhyUsImg = () => {
   return (
-    <div className="col-md-6">
+    <div className="col-lg-6">
       <div className="why-us-img-area">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-6 ">
             <div className="img-left">
               <img src={left} alt="" />
             </div>
           </div>
-          <div className="col-md-6 d-flex flex-column align-items-between">
+          <div className="col-6 d-flex flex-column align-items-between">
             <div className="row mb-auto">
               <div className="img-right-top">
                 <img src={rightTop} alt="" />
@@ -49,41 +54,55 @@ const WhyUsImg = () => {
 
 const WhyUsText = () => {
   return (
-    <div className="col-md-6">
-      <div className="why-us-text-top">
-        <h2>
-          Why You Choose Job <br />
-          Among Other Job Site?
-        </h2>
-        <p>
-          I truly believe Augustine’s words are true and if you look at history
-          you know it is true. There are many people in the world with amazing
-          talents. who realize only a small percentage of their potential. We
-          all know people who live this truth.
-        </p>
-      </div>
-      <div className="why-us-text-bottom ">
-        <div className="row">
-            <div className="col-md-6 ">
-                <div className="bottom-content mb-5">
-                    <h6><FontAwesomeIcon icon={faPeopleGroup} />Best talented people</h6>
-                </div>
+    <div className="col-lg-6 col-md-12">
+      <div className="why-us-text">
+        <div className="why-us-text-top">
+          <h2>
+            Why You Choose Job <br />
+            Among Other Job Site?
+          </h2>
+          <p>
+            I truly believe Augustine’s words are true and if you look at
+            history you know it is true. There are many people in the world with
+            amazing talents. who realize only a small percentage of their
+            potential. We all know people who live this truth.
+          </p>
+        </div>
+        <div className="why-us-text-bottom ">
+          <div className="row">
+            <div className="col-lg-6 ">
+              <div className="bottom-content">
+                <h6>
+                  <FontAwesomeIcon icon={faPeopleGroup} />
+                  Best talented people
+                </h6>
+              </div>
             </div>
-            <div className="col-md-6">
-                <div className="bottom-content mb-5">
-                    <h6><FontAwesomeIcon icon={faMagnifyingGlass} />Easy to find candidate</h6>
-                </div>
+            <div className="col-lg-6">
+              <div className="bottom-content">
+                <h6>
+                  <FontAwesomeIcon icon={faMagnifyingGlass} />
+                  Easy to find candidate
+                </h6>
+              </div>
             </div>
-            <div className="col-md-6">
-                <div className="bottom-content">
-                    <h6><FontAwesomeIcon icon={faEnvelopeOpenText} />Easy to communicate</h6>
-                </div>
+            <div className="col-lg-6">
+              <div className="bottom-content">
+                <h6>
+                  <FontAwesomeIcon icon={faEnvelopeOpenText} />
+                  Easy to communicate
+                </h6>
+              </div>
             </div>
-            <div className="col-md-6">
-                <div className="bottom-content">
-                    <h6 className="d-flex align-items-center"><FontAwesomeIcon icon={faFileArrowDown} />Best recruitment option</h6>
-                </div>
+            <div className="col-lg-6">
+              <div className="bottom-content">
+                <h6 className="d-flex align-items-center">
+                  <FontAwesomeIcon icon={faFileArrowDown} />
+                  Best recruitment option
+                </h6>
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </div>

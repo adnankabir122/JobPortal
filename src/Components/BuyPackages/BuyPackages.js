@@ -5,7 +5,7 @@ const BuyPackages = () => {
     <div className="buy-package-area">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-4">
+          <div className="col-lg-4 col-md-12">
             <div className="buy-package-text">
               <h2>Buy Our Plans And Packages</h2>
               <p>
@@ -24,7 +24,7 @@ export default BuyPackages;
 
 const PackageTable = () => {
   return (
-    <div className="col-md-8">
+    <div className="col-lg-8 col-md-12">
       <div className="buy-package-table-area">
         <div className="row">
           <PackageCard noOfJob="30" jobSalary="10000" />
