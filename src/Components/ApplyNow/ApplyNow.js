@@ -43,7 +43,6 @@ const ApplyNowCard = (props) => {
   const myStyle = {
     background: `${props.color}`,
   };
-  console.log(myStyle.background);
   return (
     <div className="apply-card mb-3" style={myStyle}>
       <div className="content d-flex align-items-center justify-content-between">

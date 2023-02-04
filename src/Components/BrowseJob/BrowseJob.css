@@ -1,5 +1,5 @@
 .jobs-area{
-    padding: 100px 0px;
+    padding: 100px 0px 0px 0px;
 }
 .left-search-box input{
     padding: 16px 0px 13px 16px;
@@ -14,19 +14,7 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
-.option-header{
-    margin-bottom: 15px;
-}
-.option-picker-area .option-header h4{
-    font-family: "Open Sans";
-    font-weight: 600;
-    font-size: 16px;
-}
-.option-picker-area .option-header button{
-    background: none;
-    border: none;
-    padding: 0;
-}
+
 .single-option input.checks:checked{
     border-radius: 50%;
     padding: 5px;
@@ -63,4 +51,60 @@
 } 
 .sort-by-area{
     padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.option-header{
+    padding:36px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+.option-header button{
+    background: none;
+    border: none;
+
+}
+.option-header h4 {
+    font-size:16px;
+    color:rgb(0, 0, 0,.8);
+    font-weight:600;
+}
+.single-option-picker{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0,.4);
+}
+.single-option {
+    margin-bottom: 15px;
+}
+@media (max-width: 991.98px) {
+    .section-header {
+        background: #E5E5E5;
+        padding: 100px 0px 130px 0px;
+    }
+    .left-option-picker-area{
+        margin-bottom: 60px;
+    }
+    .option-header{
+        padding:24px 0px 0px 0px;
+        margin-bottom: 15px;
+    }
+    .single-option-picker{
+        padding-bottom: 10px;
+    }
+    .single-option {
+        margin-bottom: 10px;
+    }
+    .left-search-box input{
+        margin-bottom: 24px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .sort-by-area{
+        display: block!important;
+    }
+    .sort-by-area .sort-by{
+        margin-top: 20px;
+    }
+  }
+  
