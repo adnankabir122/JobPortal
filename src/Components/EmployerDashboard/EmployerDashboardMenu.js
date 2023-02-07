@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const DashboardMenu = () => {
   const menuItems = [
     {
-      path: "/employerDashboard",
+      path: "/eDash",
       name: "Dashboard",
     },
     {
@@ -14,17 +14,14 @@ const DashboardMenu = () => {
     },
 
     {
-      path: "/emanageCandidates",
+      path: "/eManageCandidates",
       name: "Manage Candidates",
     },
     {
       path: "/emanageJobs",
       name: "Manage Jobs",
     },
-    {
-      path: "/esavedJobs",
-      name: "Saved jobs",
-    },
+    
     {
       path: "/ePostJobs",
       name: "Post jobs",

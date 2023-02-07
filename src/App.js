@@ -19,6 +19,10 @@ import EmployerProfile from "./Components/EmployerProfile/EmployerProfile";
 import PostJob from "./Components/PostJob/PostJob";
 import JobDetails from "./Components/JobDetails/JobDetails";
 import CandidateDetails from "./Components/CandidateDetails/CandidateDetails";
+import EmployerManageCandidates from "./Components/EmployerManageCandidates/EmployerManageCandidates";
+import EmployerManageJobs from "./Components/EmployerManageJobs/EmployerManageJobs";
+import EmployerPostJob from "./Components/EmployerPostJob/EmployerPostJob";
+
 
 const App = () => {
   return (
@@ -44,6 +48,9 @@ const App = () => {
           <Route path="/pricingPlan" element={<CandidatePricingPlan/>} />
           <Route path="/eDash" element={<EmployerDashboard/>} />
           <Route path="/emyProfile" element={<EmployerProfile/>} />
+          <Route path="/eManageCandidates" element={<EmployerManageCandidates/>} />
+          <Route path="/eManageJobs" element={<EmployerManageJobs/>} />
+          <Route path="/ePostJobs" element={<EmployerPostJob/>} />
           <Route path="*" element={<NoPage/>} />
         </Routes>
       </BrowserRouter>

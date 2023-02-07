@@ -8,7 +8,10 @@ nav.topnav {
 }
 .navbar-nav a.nav-link:hover {
   background: #226cf1;
+}.navbar-nav a.is-active{
+  background: #226cf1;
 }
+
 .nav-link .list-items {
   margin: 0px 25px;
   font-size: 18px;

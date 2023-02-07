@@ -21,6 +21,7 @@
   border-radius: 50px;
   transition: .3s;
 }
+
 .offer-nav nav ul li:hover a {
   background-color: #226CF1;
   color: white;

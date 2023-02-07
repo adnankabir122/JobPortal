@@ -21,7 +21,7 @@ const TopNav = () => {
           <Nav className="ms-auto">
             {menuItems.map((item) => {
               return (
-                <Nav.Link as={Link} to={item.path} key={item.name}>
+                <Nav.Link as={Link} to={item.path} key={item.name} activeClassName="is-active">
                   <div className="list-items">{item.name}</div>
                 </Nav.Link>
               );
