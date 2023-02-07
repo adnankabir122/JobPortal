@@ -1,8 +1,8 @@
 import React from "react";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import JobSingleCard from "../JobSingleCard/JobSingleCard";
-import jobCardsData from "../JobCards/jobCardsData";
+import CandidateCardsData from "../CandiateCardsData.js";
+import CandidateSingleCard from "../CandiateSingleCard/CandidateSingleCard";
 const CandidatesCardContainer = () => {
   return (
     <>
@@ -35,10 +35,10 @@ const CandidatesCardContainer = () => {
         </div>
       </div>
       <div className="row">
-        {jobCardsData.map((singleData, index) => {
+        {CandidateCardsData.map((singleData, index) => {
           return (
             <div className="col-lg-6 col-md-6">
-              <JobSingleCard
+              <CandidateSingleCard
                 key={index}
                 img={singleData.img}
                 title={singleData.title}

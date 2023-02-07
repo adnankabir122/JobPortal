@@ -26,7 +26,7 @@ export default WhyUs;
 
 const WhyUsImg = () => {
   return (
-    <div className="col-lg-6">
+    <div className="col-xl-6 col-lg-6">
       <div className="why-us-img-area">
         <div className="row">
           <div className="col-6 ">
@@ -54,7 +54,7 @@ const WhyUsImg = () => {
 
 const WhyUsText = () => {
   return (
-    <div className="col-lg-6 col-md-12">
+    <div className="offset-xl-1 col-xl-5 col-md-12 col-lg-6">
       <div className="why-us-text">
         <div className="why-us-text-top">
           <h2>
@@ -68,9 +68,9 @@ const WhyUsText = () => {
             potential. We all know people who live this truth.
           </p>
         </div>
-        <div className="why-us-text-bottom ">
-          <div className="row">
-            <div className="col-lg-6 ">
+        <div className="why-us-text-bottom">
+          <div className="row justify-content-center">
+            <div className="col-lg-6 col-md-6  col-sm-6">
               <div className="bottom-content">
                 <h6>
                   <FontAwesomeIcon icon={faPeopleGroup} />
@@ -78,7 +78,7 @@ const WhyUsText = () => {
                 </h6>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6  col-sm-6">
               <div className="bottom-content">
                 <h6>
                   <FontAwesomeIcon icon={faMagnifyingGlass} />
@@ -86,16 +86,16 @@ const WhyUsText = () => {
                 </h6>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="bottom-content">
+            <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="bottom-content custom-margin">
                 <h6>
                   <FontAwesomeIcon icon={faEnvelopeOpenText} />
                   Easy to communicate
                 </h6>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="bottom-content">
+            <div className="col-lg-6 col-md-6  col-sm-6">
+              <div className="bottom-content custom-margin">
                 <h6 className="d-flex align-items-center">
                   <FontAwesomeIcon icon={faFileArrowDown} />
                   Best recruitment option
