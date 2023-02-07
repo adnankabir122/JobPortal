@@ -14,7 +14,8 @@ const BuyPackages = () => {
               </p>
             </div>
           </div>
-          <PackageTable />
+          {/* <PackageTable /> */}
+          <PackageTable2 />
         </div>
       </div>
     </div>
@@ -22,15 +23,13 @@ const BuyPackages = () => {
 };
 export default BuyPackages;
 
-const PackageTable = () => {
+const PackageTable2 = () => {
   return (
     <div className="col-lg-8 col-md-12">
-      <div className="buy-package-table-area">
-        <div className="row">
-          <PackageCard noOfJob="30" jobSalary="10000" />
-          <PackageCard noOfJob="30" jobSalary="10000" />
-          <PackageCard noOfJob="30" jobSalary="10000" />
-        </div>
+      <div className="packages-area">
+        <PackageCard jobs="30" salary="10000" />
+        <PackageCard jobs="30" salary="10000" />
+        <PackageCard jobs="30" salary="10000" />
       </div>
     </div>
   );
@@ -38,28 +37,27 @@ const PackageTable = () => {
 
 const PackageCard = (props) => {
   return (
-    <div className="col-md-12">
-      <div className="single-plan">
-        <div className="row align-items-center">
-          <div className="col-md-5">
-            <div className="no-of-job d-flex align-items-center">
-              <div className="job-circle"></div>
-              <p>
-                {props.noOfJob} <span>job / month</span>
-              </p>
+    <div className="single-package custom-padding-30">
+      <div className="row align-items-center package-custom-padding">
+        <div className="col-4">
+          <div className="single-plan">
+            <div className="job-no d-flex align-items-center">
+              <h4>{props.jobs}</h4>
+              <span>job / month</span>
             </div>
           </div>
-          <div className="col-md-5">
-            <div className="job-salary">
-              <p>
-                {props.jobSalary}tk <span>/ month</span>
-              </p>
+        </div>
+        <div className="col-4">
+          <div className="single-plan">
+            <div className="job-salary d-flex align-items-center">
+              <h4>{props.salary}</h4>
+              <span>job / month</span>
             </div>
           </div>
-          <div className="col-md-2">
-            <div className="subscribe-btn">
-              <button className="btn btn-primary">Subscribe</button>
-            </div>
+        </div>
+        <div className="col-4">
+          <div className="subscribe-btn">
+            <button>Subscribe</button>
           </div>
         </div>
       </div>

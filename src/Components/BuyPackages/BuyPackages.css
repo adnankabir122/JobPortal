@@ -12,24 +12,48 @@
     color: rgb(0, 0, 0,.6);
     margin-top: 20px;
 }
-.buy-package-table-area{
-    padding: 0px 20px;
-    border: 1px solid rgb(0, 0, 0,.4);
-    border-radius:10px;
-}
-.single-plan{
+
+.custom-padding-30{
     padding: 30px 20px;
 }
-.single-plan .no-of-job .job-circle{
-    height: 24px;
-    width: 24px;
-    background-color: rgb(0, 0, 0,.2);
-    border-radius: 50%;
-    margin-right: 20px;
+.single-package{
+    border-bottom: 1px solid rgb(0, 0, 0,.4);
+}
+.single-package:last-child{
+    border-bottom: none
+}
+.packages-area{
+    border: 1px solid rgb(0, 0, 0,.4);
+    /* padding: 0px 20px; */
+    border-radius: 8px;
+}
+.single-plan h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.single-plan span{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(0, 0, 0,.6);
+}
+.job-salary{
+    justify-content: center;
+}
+.subscribe-btn{
+    text-align: right;
 }
 .subscribe-btn button{
     padding:18px 30px;
-    display: inline-block;
+    background-color: #226CF1;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: .3s;
+}
+.subscribe-btn button:hover{
+    background-color: #1c5acd;
 }
 
 @media (max-width: 991.98px){
@@ -38,3 +62,72 @@
         margin-bottom: 30px;
     }
 }
+@media (max-width: 767.98px){
+    .subscribe-btn button{
+        padding:18px 30px;
+        font-size: 14px;
+
+    }
+    .single-plan h4{
+        font-size: 18px;
+    }
+    .single-plan span{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(0, 0, 0,.6);
+    }
+    .job-salary{
+        justify-content: start;
+    }
+}
+@media screen and (max-width: 528.98px) and (min-width: 437px) {
+    .subscribe-btn button{
+        padding:14px 24px;
+        font-size: 12px;
+    }
+    .single-plan h4{
+        font-size: 13px;
+    }
+    .single-plan span{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 436.98px) and (min-width: 320px) {
+    .subscribe-btn button{
+        padding:10px 16px;
+        font-size: 8px;
+    }
+    .single-plan h4{
+        font-size: 10px;
+    }
+    .single-plan span{
+        font-size: 6px;
+    }
+}
+/* @media (max-width: 575.98px){
+    .subscribe-btn button{
+        padding:15px 25px;
+        font-size: 12px;
+
+    }
+    .single-plan h4{
+        font-size: 12px;
+    }
+    .single-plan span{
+        font-size: 8px;
+        font-weight: 400;
+        color: rgb(0, 0, 0,.6);
+    }
+    .job-salary{
+        justify-content: start;
+    }
+    .custom-padding-30{
+        padding: 20px 20px;
+    }
+    .subscribe-btn{
+        text-align: left;
+    }
+    .subscribe-btn button{
+        font-size: 7px;
+    }
+} */
