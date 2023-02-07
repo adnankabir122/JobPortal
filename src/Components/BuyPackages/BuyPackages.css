@@ -104,30 +104,3 @@
         font-size: 6px;
     }
 }
-/* @media (max-width: 575.98px){
-    .subscribe-btn button{
-        padding:15px 25px;
-        font-size: 12px;
-
-    }
-    .single-plan h4{
-        font-size: 12px;
-    }
-    .single-plan span{
-        font-size: 8px;
-        font-weight: 400;
-        color: rgb(0, 0, 0,.6);
-    }
-    .job-salary{
-        justify-content: start;
-    }
-    .custom-padding-30{
-        padding: 20px 20px;
-    }
-    .subscribe-btn{
-        text-align: left;
-    }
-    .subscribe-btn button{
-        font-size: 7px;
-    }
-} */

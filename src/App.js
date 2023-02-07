@@ -18,6 +18,7 @@ import EmployerDashboard from "./Components/EmployerDashboard/EmployerDashboard"
 import EmployerProfile from "./Components/EmployerProfile/EmployerProfile";
 import PostJob from "./Components/PostJob/PostJob";
 import JobDetails from "./Components/JobDetails/JobDetails";
+import CandidateDetails from "./Components/CandidateDetails/CandidateDetails";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/login" element={<Login/>} />
           <Route path="/postjob" element={<PostJob/>} />
           <Route path="/jobDetails" element={<JobDetails/>} />
+          <Route path="/candidateDetails" element={<CandidateDetails/>} />
           <Route path="/cDash" element={<CandidateDashboard/>} />
           <Route path="/myProfile" element={<CandidateProfile/>} />
           <Route path="/myResume" element={<CandidateResume/>} />
@@ -42,8 +44,6 @@ const App = () => {
           <Route path="/pricingPlan" element={<CandidatePricingPlan/>} />
           <Route path="/eDash" element={<EmployerDashboard/>} />
           <Route path="/emyProfile" element={<EmployerProfile/>} />
-          <Route path="/demo" element={<Login/>} />
-          
           <Route path="*" element={<NoPage/>} />
         </Routes>
       </BrowserRouter>

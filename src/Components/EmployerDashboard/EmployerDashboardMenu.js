@@ -12,17 +12,22 @@ const DashboardMenu = () => {
       path: "/emyProfile",
       name: "My profile",
     },
+
     {
-      path: "/emyResume",
-      name: "My resume",
+      path: "/emanageCandidates",
+      name: "Manage Candidates",
     },
     {
       path: "/emanageJobs",
-      name: "Manage jobs",
+      name: "Manage Jobs",
     },
     {
       path: "/esavedJobs",
       name: "Saved jobs",
+    },
+    {
+      path: "/ePostJobs",
+      name: "Post jobs",
     },
     {
       path: "/epricingPlan",

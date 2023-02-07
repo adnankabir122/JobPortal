@@ -42,14 +42,16 @@ const PostJobMain = () => {
         </div>
         <div className="row">
           <div className="col-lg-12">
-            <label>Description</label>
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              className="w-100"
-            ></textarea>
+            <div className="post-job-text-area">
+              <label>Description</label>
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                className="w-100"
+              ></textarea>
+            </div>
           </div>
         </div>
         {/* Post Job Top End */}
@@ -117,9 +119,8 @@ const PostJobMain = () => {
             </div>
           </div>
         </div>
-
         <div className="post-job-btn">
-            <button className="btn btn-primary">Post Job</button>
+          <button>Post Job</button>
         </div>
       </div>
     </div>
