@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JobPortal/static/css/main.e99890a7.css",
-    "main.js": "/JobPortal/static/js/main.fa8e83b1.js",
+    "main.css": "/JobPortal/static/css/main.89e07bd8.css",
+    "main.js": "/JobPortal/static/js/main.f8b4e29b.js",
     "static/media/hero-img.png": "/JobPortal/static/media/hero-img.4f073a6e00e31c9734bf.png",
     "static/media/hireBg.png": "/JobPortal/static/media/hireBg.a99411b78de0b64e47b4.png",
     "static/media/aboutBg.png": "/JobPortal/static/media/aboutBg.5067c3c48dbea0db9381.png",
@@ -10,16 +10,21 @@
     "static/media/right-bottom.png": "/JobPortal/static/media/right-bottom.1e81b8a9d25754811337.png",
     "static/media/easyUseBg.png": "/JobPortal/static/media/easyUseBg.32e43889d7d213177e80.png",
     "static/media/dash-image.png": "/JobPortal/static/media/dash-image.77253d26d1f4a4ddc7e2.png",
+    "static/media/aiub.png": "/JobPortal/static/media/aiub.ced8e3071e740ddfbb6d.png",
+    "static/media/nsu.png": "/JobPortal/static/media/nsu.2dfe3e0cd0538582a064.png",
+    "static/media/eastWest.png": "/JobPortal/static/media/eastWest.1f1c46c75c588764bdc7.png",
+    "static/media/daffodil.png": "/JobPortal/static/media/daffodil.652afcf63a9fc3c7b52f.png",
     "static/media/company.png": "/JobPortal/static/media/company.165b3119cbf7cbef2537.png",
     "static/media/uiu.png": "/JobPortal/static/media/uiu.165b3119cbf7cbef2537.png",
     "static/media/ui-experts.png": "/JobPortal/static/media/ui-experts.3cb6ebc292409ac1552f.png",
+    "static/media/brac.png": "/JobPortal/static/media/brac.72f8a15d8a3a8ab5362a.png",
     "static/media/design-trends.png": "/JobPortal/static/media/design-trends.f59e3679c64a769b0c3a.png",
     "index.html": "/JobPortal/index.html",
-    "main.e99890a7.css.map": "/JobPortal/static/css/main.e99890a7.css.map",
-    "main.fa8e83b1.js.map": "/JobPortal/static/js/main.fa8e83b1.js.map"
+    "main.89e07bd8.css.map": "/JobPortal/static/css/main.89e07bd8.css.map",
+    "main.f8b4e29b.js.map": "/JobPortal/static/js/main.f8b4e29b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e99890a7.css",
-    "static/js/main.fa8e83b1.js"
+    "static/css/main.89e07bd8.css",
+    "static/js/main.f8b4e29b.js"
   ]
 }
