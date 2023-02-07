@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./RoundMenu.css"
 const RoundMenu = (props) => {
   return (
@@ -10,10 +11,10 @@ const RoundMenu = (props) => {
               <nav>
                 <ul className="d-flex">
                   <li>
-                    <a href="#">{props.link1}</a>
+                    <Link href="#">{props.link1}</Link>
                   </li>
                   <li>
-                    <a href="#">{props.link2}</a>
+                    <Link href="#">{props.link2}</Link>
                   </li>
                 </ul>
               </nav>

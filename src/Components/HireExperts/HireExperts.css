@@ -1,0 +1,13 @@
+.hire-experts-area{
+    background-image: url("./hireBg.png");
+    background-size: cover;
+    padding: 180px 0px;
+}
+.hire-experts-text h1{
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height:60px;
+    color: white;
+}

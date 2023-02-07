@@ -34,13 +34,13 @@ const App = () => {
           <Route path="/login" element={<Login/>} />
           <Route path="/postjob" element={<PostJob/>} />
           <Route path="/jobDetails" element={<JobDetails/>} />
-          <Route path="/candidateDashboard" element={<CandidateDashboard/>} />
+          <Route path="/cDash" element={<CandidateDashboard/>} />
           <Route path="/myProfile" element={<CandidateProfile/>} />
           <Route path="/myResume" element={<CandidateResume/>} />
           <Route path="/savedJobs" element={<CandidateSavejobs/>} />
           <Route path="/manageJobs" element={<CandidateManageJobs/>} />
           <Route path="/pricingPlan" element={<CandidatePricingPlan/>} />
-          <Route path="/employerDashboard" element={<EmployerDashboard/>} />
+          <Route path="/eDash" element={<EmployerDashboard/>} />
           <Route path="/emyProfile" element={<EmployerProfile/>} />
           <Route path="/demo" element={<Login/>} />
           

@@ -21,7 +21,7 @@ const HeroTextArea = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="hero-text">
+            <div className="hero-text animate__animated animate__fadeIn animate__delay-400ms">
               <h1>
                 Drop <span>Resume & Get</span> Your Desired Job
               </h1>

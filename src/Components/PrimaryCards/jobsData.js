@@ -1,10 +1,10 @@
 
-import uiu from "./img/uiu.png"
-import nsu from "./img/nsu.png"
-import aiub from "./img/aiub.png"
-import daffodil from "./img/daffodil.png"
-import easeWest from "./img/eastWest.png"
-import brac from "./img/brac.png"
+import uiu from ".assets/job_img/uiu.png"
+import nsu from ".assets/job_img/nsu.png"
+import aiub from ".assets/job_img/aiub.png"
+import daffodil from ".assets/job_img/daffodil.png"
+import easeWest from ".assets/job_img/eastWest.png"
+import brac from ".assets/job_img/brac.png"
 
 const jobCardsData = [
     {

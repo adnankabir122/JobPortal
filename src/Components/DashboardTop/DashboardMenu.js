@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const DashboardMenu = () => {
   const menuItems = [
     {
-      path: "/candidateDashboard",
+      path: "/cDash",
       name: "Dashboard",
     },
     {

@@ -24,7 +24,7 @@ h3 {
   font-size: 36px;
 }
 .hero-text span {
-  color: #226cf1;;
+  color: #226cf1;
 }
 .search-box label,
 input {
@@ -132,22 +132,35 @@ input {
   .search-btn button {
     padding: 28px 21px;
   }
-  .hero-content{
+  .hero-content {
     padding: 250px 0px;
   }
 }
 /* md */
 @media screen and (max-width: 991.98px) and (min-width: 768px) {
-  .hero-text{
+  .hero-text {
     padding-bottom: 70px;
   }
-  .hero-content{
-    padding: 250px 0px;
+
+
+}
+@media (max-width: 991.98px) {
+  .hero-content {
+    padding: 250px 0px 160px 0px;
   }
-  .search-box1{
+  .search-box1 {
     margin-bottom: 40px;
   }
-  .search-btn span{
+  .search-btn span {
     text-align: center;
-  } 
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .hero-text h3 {
+    font-size: 24px;
+  }
+
+  .hero-text {
+    padding-bottom: 80px;
+  }
 }

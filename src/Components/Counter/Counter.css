@@ -1,0 +1,27 @@
+
+.counter-icon svg{
+    font-size: 50px;
+    margin-right: 20px;
+    color:#226CF1
+}
+.count h4{
+    font-size: 32px;
+    font-weight: bold;
+}
+.count-subTitle span{
+    font-size:14px ;
+    font-weight: 600;
+    padding-top: 5px;
+    color: rgb(0, 0, 0,.8);
+}
+
+
+@media (max-width: 991.98px) {
+    .single-counter{
+        margin-bottom: 30px;
+    }
+}
+.counter-area {
+    padding: 70px 0px;
+    background: rgb(0, 0, 0,.06);
+}
