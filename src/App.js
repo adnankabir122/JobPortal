@@ -22,6 +22,7 @@ import EmployerManageCandidates from "./Components/EmployerManageCandidates/Empl
 import EmployerManageJobs from "./Components/EmployerManageJobs/EmployerManageJobs";
 import EmployerPostJob from "./Components/EmployerPostJob/EmployerPostJob";
 import CandidatePricingPlan from "./Components/CandidatePricingPlan/CandidatePricingPlan";
+import EmployerPricingPlan from "./Components/EmployerPricingPlan/EmployerPricingPlan";
 
 
 const App = () => {
@@ -55,6 +56,7 @@ const App = () => {
           <Route path="/eManageCandidates" element={<EmployerManageCandidates/>} />
           <Route path="/eManageJobs" element={<EmployerManageJobs/>} />
           <Route path="/ePostJobs" element={<EmployerPostJob/>} />
+          <Route path="/ePricingPlan" element={<EmployerPricingPlan/>} />
 
           /* ------------------------------ No Page Found ----------------------------- */
           <Route path="*" element={<NoPage/>} />
