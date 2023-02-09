@@ -7,7 +7,7 @@ import logo from "./logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faCirclePlus } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 
 const TopNav = () => {
   return (
@@ -21,7 +21,7 @@ const TopNav = () => {
           <Nav className="ms-auto">
             {menuItems.map((item) => {
               return (
-                <Nav.Link as={Link} to={item.path} key={item.name} activeClassName="is-active">
+                <Nav.Link as={NavLink} to={item.path} key={item.name}>
                   <div className="list-items">{item.name}</div>
                 </Nav.Link>
               );

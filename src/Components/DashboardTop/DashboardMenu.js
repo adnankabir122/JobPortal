@@ -1,6 +1,6 @@
 import React from "react";
 import "./DashboardMenu.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const DashboardMenu = () => {
   const menuItems = [
@@ -9,23 +9,23 @@ const DashboardMenu = () => {
       name: "Dashboard",
     },
     {
-      path: "/myProfile",
+      path: "/cmyProfile",
       name: "My profile",
     },
     {
-      path: "/myResume",
+      path: "/cmyResume",
       name: "My resume",
     },
     {
-      path: "/manageJobs",
+      path: "/cmanageJobs",
       name: "Manage jobs",
     },
     {
-      path: "/savedJobs",
+      path: "/csavedJobs",
       name: "Saved jobs",
     },
     {
-      path: "/pricingPlan",
+      path: "/cpricingPlan",
       name: "Pricing plan",
     },
     {
@@ -41,9 +41,9 @@ const DashboardMenu = () => {
             <div className="dashboard-menu d-flex justify-content-around">
               {menuItems.map((item) => {
                 return (
-                    <Link to={item.path} key={item.name}>
+                    <NavLink to={item.path} key={item.name}>
                         {item.name}
-                    </Link>
+                    </NavLink>
                 );
               })}
             </div>

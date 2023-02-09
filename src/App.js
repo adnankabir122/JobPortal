@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route,Link} from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import About from "./Components/About/About";
 import BrowseJob from "./Components/BrowseJob/BrowseJob";
 import ContactUs from "./Components/ContactUs/ContactUs";
@@ -12,7 +12,6 @@ import CandidateProfile from "./Components/CandidateProfile/CandidateProfile";
 import CandidateResume from "./Components/CandidateResume/CandidateResume";
 import CandidateSavejobs from "./Components/CandidateSavejobs/CandidateSavejobs";
 import CandidateManageJobs from "./Components/CandidateManageJobs/CandidateManageJobs";
-import CandidatePricingPlan from "./Components/CandidatePricingPlan/CandidatePricingPlan";
 import BrowseCandidates from "./Components/BrowseCandidates/BrowseCandidates";
 import EmployerDashboard from "./Components/EmployerDashboard/EmployerDashboard";
 import EmployerProfile from "./Components/EmployerProfile/EmployerProfile";
@@ -22,13 +21,14 @@ import CandidateDetails from "./Components/CandidateDetails/CandidateDetails";
 import EmployerManageCandidates from "./Components/EmployerManageCandidates/EmployerManageCandidates";
 import EmployerManageJobs from "./Components/EmployerManageJobs/EmployerManageJobs";
 import EmployerPostJob from "./Components/EmployerPostJob/EmployerPostJob";
+import CandidatePricingPlan from "./Components/CandidatePricingPlan/CandidatePricingPlan";
 
 
 const App = () => {
   return (
-    <div>
       <BrowserRouter basename='/JobPortal' >
         <Routes>
+          /* ------------------------------ Common Routes ----------------------------- */
           <Route path="/" element={<Home/>} />
           <Route path='/JobPortal' element={<Home/>} />
           <Route path="/jobs" element={<BrowseJob/>} />
@@ -40,22 +40,27 @@ const App = () => {
           <Route path="/postjob" element={<PostJob/>} />
           <Route path="/jobDetails" element={<JobDetails/>} />
           <Route path="/candidateDetails" element={<CandidateDetails/>} />
+
+          /* ----------------------- Candidate Dashboard Routes ----------------------- */
           <Route path="/cDash" element={<CandidateDashboard/>} />
-          <Route path="/myProfile" element={<CandidateProfile/>} />
-          <Route path="/myResume" element={<CandidateResume/>} />
-          <Route path="/savedJobs" element={<CandidateSavejobs/>} />
-          <Route path="/manageJobs" element={<CandidateManageJobs/>} />
-          <Route path="/pricingPlan" element={<CandidatePricingPlan/>} />
+          <Route path="/cmyProfile" element={<CandidateProfile/>} />
+          <Route path="/cmyResume" element={<CandidateResume/>} />
+          <Route path="/csavedJobs" element={<CandidateSavejobs/>} />
+          <Route path="/cmanageJobs" element={<CandidateManageJobs/>} />
+          <Route path="/cpricingPlan" element={<CandidatePricingPlan/>} />
+
+          /* ----------------------- Employer Dashboard Routes ----------------------- */
           <Route path="/eDash" element={<EmployerDashboard/>} />
           <Route path="/emyProfile" element={<EmployerProfile/>} />
           <Route path="/eManageCandidates" element={<EmployerManageCandidates/>} />
           <Route path="/eManageJobs" element={<EmployerManageJobs/>} />
           <Route path="/ePostJobs" element={<EmployerPostJob/>} />
+
+          /* ------------------------------ No Page Found ----------------------------- */
           <Route path="*" element={<NoPage/>} />
+
         </Routes>
       </BrowserRouter>
-    </div>
   );
 };
-
 export default App;

@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./RoundMenu.css"
+import "./RoundMenu.css";
 import { NavLink } from "react-router-dom";
-const RoundMenu = (props) => {
 
-  
+const RoundMenu = (props) => {
   return (
     <div className="rounded-menu-area">
       <div className="container">
@@ -14,10 +12,10 @@ const RoundMenu = (props) => {
               <nav>
                 <ul className="d-flex">
                   <li>
-                    <NavLink to="/">{props.link1}</NavLink>
+                    <NavLink to="">{props.link1}</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/">{props.link2}</NavLink>
+                    <NavLink to="">{props.link2}</NavLink>
                   </li>
                 </ul>
               </nav>

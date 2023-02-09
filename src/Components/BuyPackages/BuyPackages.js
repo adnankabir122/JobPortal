@@ -1,4 +1,5 @@
 import React from "react";
+import BuyPackageTable from "../BuyPackageTable/BuyPackageTable";
 import "./BuyPackages.css";
 const BuyPackages = () => {
   return (
@@ -14,53 +15,12 @@ const BuyPackages = () => {
               </p>
             </div>
           </div>
-          {/* <PackageTable /> */}
-          <PackageTable2 />
+          <div className="col-lg-8 col-md-12">
+            <BuyPackageTable/>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 export default BuyPackages;
-
-const PackageTable2 = () => {
-  return (
-    <div className="col-lg-8 col-md-12">
-      <div className="packages-area">
-        <PackageCard jobs="30" salary="10000" />
-        <PackageCard jobs="30" salary="10000" />
-        <PackageCard jobs="30" salary="10000" />
-      </div>
-    </div>
-  );
-};
-
-const PackageCard = (props) => {
-  return (
-    <div className="single-package custom-padding-30">
-      <div className="row align-items-center package-custom-padding">
-        <div className="col-4">
-          <div className="single-plan">
-            <div className="job-no d-flex align-items-center">
-              <h4>{props.jobs}</h4>
-              <span>job / month</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-4">
-          <div className="single-plan">
-            <div className="job-salary d-flex align-items-center">
-              <h4>{props.salary}</h4>
-              <span>job / month</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-4">
-          <div className="subscribe-btn">
-            <button>Subscribe</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
