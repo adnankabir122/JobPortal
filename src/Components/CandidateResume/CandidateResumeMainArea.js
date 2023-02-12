@@ -13,13 +13,13 @@ const CandidateResumeMainArea = () => {
       <PersonalInformation />
 
       <CommonInformation headingText="Education" buttonText="Add Education"/>
-      <CommonDetails section="education"/>
+      <CommonDetails section="education" status="form"/>
 
       <CommonInformation headingText="Work & Experience" buttonText="Add Experience"/>
-      <CommonDetails section="experience"/>
+      <CommonDetails section="experience" status="form"/>
 
       <CommonInformation headingText="Awards" buttonText="Add Awards"/>
-      <CommonDetails section="awards"/>
+      <CommonDetails section="awards" status="form"/>
 
       <CandidateProfessionalSkill />
     </div>

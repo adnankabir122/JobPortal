@@ -6,12 +6,14 @@ import "./JobDetails.css";
 import DetailsRight from "./DetailsRight";
 import DetailsLeftTop from "./DetailsLeftTop";
 import DetailsLeftMiddle from "./DetailsLeftMiddle";
-
+import uiu from "./assets/uiu.png";
+import JobCandidateDetailsHeader from "../JobCandidateDetailsHeader/JobCandidateDetailsHeader";
 // Job Details Start
 const JobDetails = () => {
   return (
     <div>
       <TopNav />
+      <JobCandidateDetailsHeader img={uiu} msg="job" heading="Marketing and Communications"/>
       <JobDetailsMain />
       <ApplyNow />
       <Footer />

@@ -10,7 +10,7 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
 const CandidateSingleCard = (props) => {
   return (
-    <Link to="/jobDetails" className="w-100" >
+    <Link to="/candidateDetails" className="w-100" >
       <div className="job-card-content card-hover">
         <div className="card-img text-center w-100">
           <img src={props.img} alt="" />

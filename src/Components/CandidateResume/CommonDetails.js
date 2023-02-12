@@ -3,7 +3,7 @@ import { CommonFormArea } from "./CommonInformation";
 import del from "./img/delete.png";
 import edit from "./img/edit.png";
 const CommonDetails = (props) => {
-  if (props.section == "education") {
+  if (props.section === "education") {
     return (
       <div className="common-details-area">
         <div className="container">
@@ -18,23 +18,27 @@ const CommonDetails = (props) => {
               title="Diploma in Graphics Design"
               university="Graphic Arts Institute"
             />
-            <CommonFormArea
-              buttonText="Update"
-              titlein="Web Designer"
-              institute="Engineering University"
-              year="12-05-1996"
-            >
-              Have some fun and hypnotize yourself to be your very own “Ghost of
-              Christmas future” and see what the future holds for you.One of the
-              main areas that I work on with my clients is shedding these
-              non-supportive beliefs .
-            </CommonFormArea>
+            {props.status === "form" ? (
+              <CommonFormArea
+                buttonText="Update"
+                titlein="Web Designer"
+                institute="Engineering University"
+                year="12-05-1996"
+              >
+                Have some fun and hypnotize yourself to be your very own “Ghost
+                of Christmas future” and see what the future holds for you.One
+                of the main areas that I work on with my clients is shedding
+                these non-supportive beliefs .
+              </CommonFormArea>
+            ) : (
+              <span></span>
+            )}
           </div>
         </div>
       </div>
     );
   }
-  if (props.section == "experience") {
+  if (props.section === "experience") {
     return (
       <div className="common-details-area">
         <div className="container">
@@ -49,23 +53,27 @@ const CommonDetails = (props) => {
               title="Web Designer"
               university="Inwave Studio"
             />
-            <CommonFormArea
-              buttonText="Update"
-              titlein="Web Designer"
-              institute="Engineering University"
-              year="12-05-1996"
-            >
-              Have some fun and hypnotize yourself to be your very own “Ghost of
-              Christmas future” and see what the future holds for you.One of the
-              main areas that I work on with my clients is shedding these
-              non-supportive beliefs .
-            </CommonFormArea>
+            {props.status === "form" ? (
+              <CommonFormArea
+                buttonText="Update"
+                titlein="Web Designer"
+                institute="Engineering University"
+                year="12-05-1996"
+              >
+                Have some fun and hypnotize yourself to be your very own “Ghost
+                of Christmas future” and see what the future holds for you.One
+                of the main areas that I work on with my clients is shedding
+                these non-supportive beliefs .
+              </CommonFormArea>
+            ) : (
+              <span></span>
+            )}
           </div>
         </div>
       </div>
     );
   }
-  if (props.section == "awards") {
+  if (props.section === "awards") {
     return (
       <div className="common-details-area">
         <div className="container">
@@ -80,17 +88,21 @@ const CommonDetails = (props) => {
               title="Web Designer"
               university="Inwave Studio"
             />
-            <CommonFormArea
-              buttonText="Update"
-              titlein="Web Designer"
-              institute="Engineering University"
-              year="12-05-1996"
-            >
-              Have some fun and hypnotize yourself to be your very own “Ghost of
-              Christmas future” and see what the future holds for you.One of the
-              main areas that I work on with my clients is shedding these
-              non-supportive beliefs .
-            </CommonFormArea>
+            {props.status === "form" ? (
+              <CommonFormArea
+                buttonText="Update"
+                titlein="Web Designer"
+                institute="Engineering University"
+                year="12-05-1996"
+              >
+                Have some fun and hypnotize yourself to be your very own “Ghost
+                of Christmas future” and see what the future holds for you.One
+                of the main areas that I work on with my clients is shedding
+                these non-supportive beliefs .
+              </CommonFormArea>
+            ) : (
+              <span></span>
+            )}
           </div>
         </div>
       </div>
@@ -99,16 +111,6 @@ const CommonDetails = (props) => {
 };
 
 export default CommonDetails;
-
-
-
-
-
-
-
-
-
-
 
 const CommonSingleDetails = (props) => {
   return (
@@ -141,3 +143,5 @@ const CommonSingleDetails = (props) => {
     </div>
   );
 };
+
+export { CommonSingleDetails };

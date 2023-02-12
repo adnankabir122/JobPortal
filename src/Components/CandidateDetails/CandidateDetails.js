@@ -1,18 +1,18 @@
 import React from "react";
 import ApplyNow from "../ApplyNow/ApplyNow";
 import Footer from "../Footer/Footer";
-import DetailsLeftMiddle from "../JobDetails/DetailsLeftMiddle";
-import DetailsLeftTop from "../JobDetails/DetailsLeftTop";
-import DetailsRight from "../JobDetails/DetailsRight";
+import JobCandidateDetailsHeader from "../JobCandidateDetailsHeader/JobCandidateDetailsHeader";
 import TopNav from "../TopNav/TopNav";
 import "./CandidateDetails.css";
 import CandidateDetailsLeftTop from "./CandidateDetailsLeftTop";
 import CandidateDetailsRight from "./CandidateDetailsRight";
+import mreedul from "./assets/mreedul.png"
+import CandidateDetailsMiddle from "./CandidateDetailsMiddle";
 const CandidateDetails = () => {
   return (
     <div>
       <TopNav />
-      {/* <JobDetailsMain /> */}
+      <JobCandidateDetailsHeader img={mreedul} heading="Kamrul Hasan Mreedul"/>
       <CandidateDetailsMain/>
       <ApplyNow />
       <Footer />
@@ -30,7 +30,7 @@ const CandidateDetailsMain = () => {
           <div className="col-lg-8">
             <div className="details-left-area">
               <CandidateDetailsLeftTop />
-              {/* <DetailsLeftMiddle /> */}
+              <CandidateDetailsMiddle />
             </div>
           </div>
           <div className="col-lg-4">
