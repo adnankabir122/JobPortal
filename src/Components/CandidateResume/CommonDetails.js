@@ -12,11 +12,13 @@ const CommonDetails = (props) => {
               date="2018-pres"
               title="Masters in Software Engineering"
               university="Engineering University"
+              msg={props.noicon}
             />
             <CommonSingleDetails
               date="2014 - 2018"
               title="Diploma in Graphics Design"
               university="Graphic Arts Institute"
+              msg={props.noicon}
             />
             {props.status === "form" ? (
               <CommonFormArea
@@ -47,11 +49,13 @@ const CommonDetails = (props) => {
               date="2014 - 2018"
               title="Secondary School Certificate"
               university="Engineering University"
+              msg={props.noicon}
             />
             <CommonSingleDetails
               date="2014 - 2018"
               title="Web Designer"
               university="Inwave Studio"
+              msg={props.noicon}
             />
             {props.status === "form" ? (
               <CommonFormArea
@@ -82,11 +86,13 @@ const CommonDetails = (props) => {
               date="2014 - 2018"
               title="Perfect Attendance Programs"
               university="Engineering University"
+              msg={props.noicon}
             />
             <CommonSingleDetails
               date="2014 - 2018"
               title="Web Designer"
               university="Inwave Studio"
+              msg={props.noicon}
             />
             {props.status === "form" ? (
               <CommonFormArea
@@ -129,16 +135,21 @@ const CommonSingleDetails = (props) => {
             </p>
           </div>
         </div>
-        <div className="col-lg-2">
-          <div className="details-icon d-flex justify-content-end">
-            <button>
-              <img src={del} alt="" />
-            </button>
-            <button>
-              <img src={edit} alt="" />
-            </button>
+
+        {props.msg === "noicon" ? (
+          <span></span>
+        ) : (
+          <div className="col-lg-2">
+            <div className="details-icon d-flex justify-content-end">
+              <button>
+                <img src={del} alt="" />
+              </button>
+              <button>
+                <img src={edit} alt="" />
+              </button>
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );

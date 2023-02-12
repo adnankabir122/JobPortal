@@ -16,20 +16,45 @@ const CandidateDetailsMiddle = () => {
           the message sticks – as simple as that!
         </p>
       </div>
-      <div className="candidate-details-education">
+      <div className="candidate-details-education details-heading">
         <h2>Education</h2>
-        <CommonDetails section="education" />
+        <CommonDetails section="education" noicon="noicon" />
       </div>
-      <div className="candidate-details-experience">
+      <div className="candidate-details-experience details-heading">
         <h2>Work & Experiences</h2>
-        <CommonDetails section="experience" />
+        <CommonDetails section="experience" noicon="noicon" />
       </div>
-      <div className="candidate-details-education">
+      <div className="candidate-details-awards details-heading">
         <h2>Awards</h2>
-        <CommonDetails section="awards" />
+        <CommonDetails section="awards" noicon="noicon" />
+      </div>
+
+      <div className="candidate-details-professional-skill details-heading">
+        <h2>Professional Skill</h2>
+        <div className="single-skill-with-progress">
+          <div className="row">
+            <SingleSkillWithProgress title="PHP" percent="85%" />
+            <SingleSkillWithProgress title="PHP" percent="85%" />
+            <SingleSkillWithProgress title="Java" percent="45%" />
+            <SingleSkillWithProgress title="Java" percent="45%" />
+            <SingleSkillWithProgress title="Figma" percent="70%" />
+            <SingleSkillWithProgress title="Figma" percent="70%" />
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
 export default CandidateDetailsMiddle;
+const SingleSkillWithProgress = (props) => {
+  return (
+    <div className="col-lg-6">
+      <div className="progress-text d-flex justify-content-between">
+        <h6>{props.title}</h6>
+        <h6>{props.percent}</h6>
+      </div>
+      <div className="progress-bar"></div>
+    </div>
+  );
+};
