@@ -69,7 +69,7 @@ const LeftOptionPicker = () => {
             <Option label="Female"/>
         </div>
         <div className="Qualification">
-            <OptionHeader title="Date Posted"/>
+            <OptionHeader title="Qualifications"/>
             <Option label="Matriculation" />
             <Option label="Intermediate"/>
             <Option label="Graduate"/>
