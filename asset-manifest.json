@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JobPortal/static/css/main.fbb96813.css",
-    "main.js": "/JobPortal/static/js/main.e040d5e6.js",
+    "main.css": "/JobPortal/static/css/main.545d7bc0.css",
+    "main.js": "/JobPortal/static/js/main.9335d59d.js",
     "static/media/hireBg.png": "/JobPortal/static/media/hireBg.a99411b78de0b64e47b4.png",
     "static/media/hero-img.png": "/JobPortal/static/media/hero-img.1a6c989608aab09af82e.png",
     "static/media/aboutBg.png": "/JobPortal/static/media/aboutBg.5067c3c48dbea0db9381.png",
@@ -10,6 +10,7 @@
     "static/media/right-bottom.png": "/JobPortal/static/media/right-bottom.1e81b8a9d25754811337.png",
     "static/media/easyUseBg.png": "/JobPortal/static/media/easyUseBg.32e43889d7d213177e80.png",
     "static/media/dash-image.png": "/JobPortal/static/media/dash-image.77253d26d1f4a4ddc7e2.png",
+    "static/media/mreedul.png": "/JobPortal/static/media/mreedul.77253d26d1f4a4ddc7e2.png",
     "static/media/img3.png": "/JobPortal/static/media/img3.78e5f0b352c84d42e26c.png",
     "static/media/img1.png": "/JobPortal/static/media/img1.cb4b0516211c2ea8c1f4.png",
     "static/media/img5.png": "/JobPortal/static/media/img5.5b1b4943fb038c05677a.png",
@@ -26,11 +27,11 @@
     "static/media/brac.png": "/JobPortal/static/media/brac.72f8a15d8a3a8ab5362a.png",
     "static/media/design-trends.png": "/JobPortal/static/media/design-trends.f59e3679c64a769b0c3a.png",
     "index.html": "/JobPortal/index.html",
-    "main.fbb96813.css.map": "/JobPortal/static/css/main.fbb96813.css.map",
-    "main.e040d5e6.js.map": "/JobPortal/static/js/main.e040d5e6.js.map"
+    "main.545d7bc0.css.map": "/JobPortal/static/css/main.545d7bc0.css.map",
+    "main.9335d59d.js.map": "/JobPortal/static/js/main.9335d59d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbb96813.css",
-    "static/js/main.e040d5e6.js"
+    "static/css/main.545d7bc0.css",
+    "static/js/main.9335d59d.js"
   ]
 }
