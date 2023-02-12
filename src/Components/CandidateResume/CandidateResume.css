@@ -75,6 +75,12 @@
     color: white;
     font-weight: 600;
 }
+.save-btn-area button{
+    margin-top: 20px;
+    padding: 14px 28px;
+    color: white;
+    background-color: #226CF1;
+}
 /* Professional Skill End  */
 
 /* My resume with button Start  */

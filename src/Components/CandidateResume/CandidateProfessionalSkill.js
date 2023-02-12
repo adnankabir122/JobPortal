@@ -38,6 +38,12 @@ const CandidateProfessionalSkill = () => {
           </div>
         </div>
       </div>
+
+      <div className="save-btn-area">
+        <div className="container">
+          <button className="save-btn">Save</button>
+        </div>
+      </div>
     </div>
   );
 };
@@ -45,22 +51,21 @@ const CandidateProfessionalSkill = () => {
 export default CandidateProfessionalSkill;
 
 const SingleSkillRow = () => {
-    return (
-      <div className="row align-items-end">
-        <div className="col-lg-5">
-          <DashInputField label="Title" placeholder="Photoshop" />
-        </div>
-        <div className="col-lg-5">
-          <DashInputField label="Percentage" placeholder="80%" />
-        </div>
-        <div className="col-lg-2">
-          <div className="skill-delete-button d-flex justify-content-end">
-            <button>
-              <FontAwesomeIcon icon={faTrash} />
-            </button>
-          </div>
+  return (
+    <div className="row align-items-end">
+      <div className="col-lg-5">
+        <DashInputField label="Title" placeholder="Photoshop" />
+      </div>
+      <div className="col-lg-5">
+        <DashInputField label="Percentage" placeholder="80%" />
+      </div>
+      <div className="col-lg-2">
+        <div className="skill-delete-button d-flex justify-content-end">
+          <button>
+            <FontAwesomeIcon icon={faTrash} />
+          </button>
         </div>
       </div>
-    );
-  };
-  
+    </div>
+  );
+};

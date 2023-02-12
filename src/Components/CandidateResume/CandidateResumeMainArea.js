@@ -22,6 +22,7 @@ const CandidateResumeMainArea = () => {
       <CommonDetails section="awards" status="form"/>
 
       <CandidateProfessionalSkill />
+      
     </div>
   );
 };
