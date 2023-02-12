@@ -32,3 +32,8 @@ a{
   text-decoration: none;
 
 }
+@media (max-width: 1399.98px) {
+ .stat-count h6{
+  padding-left: 22px;
+ }
+}
