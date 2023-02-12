@@ -21,8 +21,10 @@ const EmployerProfile = () => {
     </div>
   );
 };
-
 export default EmployerProfile;
+
+
+
 const MyProfileForm = () => {
     return (
       <div className="basic-info-area">

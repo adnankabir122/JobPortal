@@ -1,7 +1,166 @@
-.dash-custom-padding{
-    padding: 35px 30px;
-    background: #F2F2F2;
+.candidate-resume-main-area .dashboard-heading-text {
+    padding-bottom: 0px;
 }
-.dash-custom-section-padding{
-    padding: 60px 0px;
+.candidate-resume-main-area label{
+    font-size: 14px;
+    color: rgb(0, 0, 0,.4);
+    margin-bottom: 13px;
+    margin-top: 15px;
 }
+.candidate-resume-main-area input{
+    padding: 10px 0px 10px 23px;
+    border: 0.5px solid rgb(0, 0, 0,.4);
+}
+.candidate-resume-main-area .form-with-bg{
+    padding: 35px 30px 35px 30px;
+    background: rgb(0, 0, 0,.05);
+}
+.candidate-resume-main-area textarea{
+    border: 0.5px solid rgb(0, 0, 0,.4);
+}
+.candidate-resume-main-area .dash-input-field  input::placeholder{
+    font-size: 14px;
+    font-weight: bold;
+}
+.candidate-resume-main-area select{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0,.6);
+}
+
+/* Professional Skill Start  */
+.professional-skills-area {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.professional-skill-header {
+    margin-bottom: 30px;
+}
+.custom-background{
+    padding-top: 20px;
+    padding-bottom: 36px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background: rgb(0, 0, 0,.05);
+}
+
+.professional-skills-main-area .dash-input-field input{
+    padding: 15px 0px 15px 20px;
+}
+.professional-skills-main-area .dash-input-field label{
+    font-size: 14px;
+    color: rgb(0, 0, 0,.8);
+    margin-bottom: 13px;
+    margin-top: 15px;
+}
+.professional-skills-main-area .dash-input-field input::placeholder{
+    font-size: 14px bold;
+    font-weight: 600;  
+}
+.professional-skills-main-area .add-new-skill-button button{
+    margin-top: 20px;
+    padding: 14px 28px;
+    color: white;
+    background-color: #226CF1;
+}
+.professional-skills-main-area .add-new-skill-button button:hover{
+    background-color: #1b51b7;
+}
+.skill-delete-button button svg{
+    color: #D34836;
+}
+.skill-add-button button {
+    background-color: #226CF1;
+    padding: 14px 75px;
+    color: white;
+    font-weight: 600;
+}
+/* Professional Skill End  */
+
+/* My resume with button Start  */
+.my-resume-with-button-area{
+    margin-bottom: 60px;
+}
+.my-resume-with-button-area button.upload-resume-button{
+    font-weight:600;
+    padding: 14px 70px;
+    background: #226CF1;
+    color: white;
+}
+/* My resume with button End  */
+
+/* Personal Info Start  */
+.personal-info-area .dashboard-heading-text h2{
+    margin-bottom: 40px;
+}
+/* Personal Info End  */
+
+/* Common Info Area Start  */
+.common-info-area{
+    margin-top: 70px;
+}
+.common-button-area button.common-button{
+    font-weight:600;
+    padding: 14px 70px;
+    background: #226CF1;
+    color: white;
+}
+.common-info-header{
+    margin-bottom: 30px;
+}
+.common-form-button button{
+    margin-top: 20px;
+    padding: 14px 28px;
+    color: white;
+    background-color: #226CF1;
+}
+/* Common Info Area End  */
+
+
+/* Common Details Area Start  */
+.common-details-area {
+    margin-top: 70px;
+}
+.common-details-area .details-header span{
+    font-size: 14px;
+    color: rgb(0, 0, 0,.4);
+    margin-bottom: 5px;
+}
+.common-details-area .details-header h4{
+    font-weight: 700;
+    color: rgb(0, 0, 0,.8);
+    margin-bottom: 5px;
+}
+.common-details-area .details-header h6{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(0, 0, 0,.6);
+}
+.common-details-area .details-header p{
+    color: rgb(0, 0, 0,.4);
+    margin-top: 10px;
+}
+.common-details-area .details-icon button{
+    background: none;
+    margin-right: 10px;
+}
+.common-details-area .common-single-details{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.common-single-details-area{
+    position: relative;
+    padding-left: 15px;
+}
+.common-single-details-area::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: rgb(0, 0, 0,.4);
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+
+
+/* Common Details Area End  */

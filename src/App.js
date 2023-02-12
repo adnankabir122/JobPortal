@@ -29,7 +29,8 @@ const App = () => {
   return (
       <BrowserRouter basename='/JobPortal' >
         <Routes>
-          /* ------------------------------ Common Routes ----------------------------- */
+
+          {/* Common Routes  */}
           <Route path="/" element={<Home/>} />
           <Route path='/JobPortal' element={<Home/>} />
           <Route path="/jobs" element={<BrowseJob/>} />
@@ -42,7 +43,7 @@ const App = () => {
           <Route path="/jobDetails" element={<JobDetails/>} />
           <Route path="/candidateDetails" element={<CandidateDetails/>} />
 
-          /* ----------------------- Candidate Dashboard Routes ----------------------- */
+          {/* Candidate Dashboard Routes */}
           <Route path="/cDash" element={<CandidateDashboard/>} />
           <Route path="/cmyProfile" element={<CandidateProfile/>} />
           <Route path="/cmyResume" element={<CandidateResume/>} />
@@ -50,7 +51,7 @@ const App = () => {
           <Route path="/cmanageJobs" element={<CandidateManageJobs/>} />
           <Route path="/cpricingPlan" element={<CandidatePricingPlan/>} />
 
-          /* ----------------------- Employer Dashboard Routes ----------------------- */
+          {/* Employer Dashboard Routes */}
           <Route path="/eDash" element={<EmployerDashboard/>} />
           <Route path="/emyProfile" element={<EmployerProfile/>} />
           <Route path="/eManageCandidates" element={<EmployerManageCandidates/>} />
@@ -58,7 +59,7 @@ const App = () => {
           <Route path="/ePostJobs" element={<EmployerPostJob/>} />
           <Route path="/ePricingPlan" element={<EmployerPricingPlan/>} />
 
-          /* ------------------------------ No Page Found ----------------------------- */
+          {/* No Page Found  */}
           <Route path="*" element={<NoPage/>} />
 
         </Routes>

@@ -6,6 +6,9 @@ import "./EmployerPricingPlan.css"
 import DashboardHeading from '../DashboardHeading/DashboardHeading'
 import BuyPackageTable from '../BuyPackageTable/BuyPackageTable'
 import Footer from '../Footer/Footer'
+
+
+
 const EmployerPricingPlan = () => {
   return (
     <div>

@@ -9,12 +9,12 @@ import RoundMenu from "../RoundMenu/RoundMenu"
 import BuyPackages from "../BuyPackages/BuyPackages"
 import WhyUs from "../WhyUs/WhyUs"
 import TopNav from "../TopNav/TopNav"
-
 import EasyUse from "../EasyUse/EasyUse"
 import HireExperts from "../HireExperts/HireExperts"
 import Counter from "../Counter/Counter"
 
 const Home = () => {
+  
   const subHeaderData = {
     heading: "Job Offers & Candidate",
     paragraph:
@@ -23,7 +23,6 @@ const Home = () => {
 
   return (
     <div>
-      {/* Header Start  */}
       <div className="header">
         <div className="main-menu-container topNav-no-bg">
           <TopNav />
@@ -32,7 +31,6 @@ const Home = () => {
           <HeroArea />
         </div>
       </div>
-      {/* Header End  */}
 
       <SubHeader subHeaderData={subHeaderData} />
       <RoundMenu link1="Jobs" link2="Candidates" />
